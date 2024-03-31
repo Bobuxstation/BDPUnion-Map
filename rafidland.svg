@@ -1,0 +1,6 @@
+ <!--Created for free with Tennessine's Flag Designer at https://tennessine.co.uk/flags/--><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="svg faded fadein" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="975.0367704700502" height="597.6000366210938" viewBox="0 0 100 61.29" id="svg"><g><g><path d="M0,0L100,0L100,61.29L0,61.29Z" fill="rgb(255,255,255)"/></g></g><g class="svg-group-clickable" transform="rotate(0,50,15.322500228881836)"><g><path d="M0,0L100,0L100,30.645L0,30.645Z" fill="rgb(255,127,38)"/></g></g><defs id="font-data"><style xmlns="http://www.w3.org/1999/xhtml">svg * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+.svg-group-clickable { cursor: pointer; }
+svg &gt; g &gt; g { transform-origin: left top; transform-box: fill-box; }
+.faded { opacity: 0.75; }
+.fadein { opacity: 1; transition: opacity 0.3s ease 0s; }
+</style></defs></svg>

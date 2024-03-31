@@ -1,0 +1,216 @@
+.rafidland:hover {
+    fill: #fc8e3f;
+    stroke: #fc8e3f;
+    cursor: pointer;
+}
+
+.nandaland:hover {
+    fill: #2ccf5d;
+    stroke: #2ccf5d;
+    cursor: pointer;
+}
+
+.zeanland:hover {
+    fill: #ababab;
+    stroke: #ababab;
+    cursor: pointer;
+}
+
+.silatland:hover {
+    fill: #fec5d8;
+    stroke: #fec5d8;
+    cursor: pointer;
+}
+
+.asatland:hover {
+    fill: #3e9dfd;
+    stroke: #3e9dfd;
+    cursor: pointer;
+}
+
+.farrasland:hover {
+    fill: #fff86c;
+    stroke: #fff86c;
+    cursor: pointer;
+}
+
+.arkaland:hover {
+    fill: #ff3e3e;
+    stroke: #ff3e3e;
+    cursor: pointer;
+}
+
+.welan:hover {
+    fill: #d25fd2;
+    stroke: #d25fd2;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s ease !important;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.theline {
+    position: absolute;
+    height: 1px;
+    margin-top: 60vh;
+    border-bottom: #00000090 dashed 2.5px;
+    width: 100vw;
+    top: 0;
+    pointer-events: none;
+}
+
+body {
+    display: flex;
+    place-content: center;
+    justify-items: center;
+    place-items: center;
+    height: 100vh;
+    background: lightblue;
+    box-shadow: 0px 0px 400px -56px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 0px 0px 400px -56px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 0px 0px 400px -56px rgba(0, 0, 0, 0.75) inset;
+    background-image:
+        linear-gradient(to right, grey 1px, transparent 1px),
+        linear-gradient(to bottom, grey 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+svg {
+    border-radius: 15px;
+}
+
+#countrydesc {
+    background: #1d1d1dbf;
+    backdrop-filter: blur(100px);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: calc(100vw - 50px);
+    padding: 25px;
+    color: white;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.75);
+    border: #4d4d4d solid 1px;
+    max-height: calc(100vh - 50px);
+    overflow: auto;
+    animation-name: zoomIn;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    transform: translateY(-5px);
+    font-size: 20px;
+    width: 50px;
+    background-color: #1d1d1d;
+    border: #2d2d2d;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+span {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+img,
+#object {
+    float: right;
+    width: 20%;
+    border-radius: 15px;
+    border: none;
+    pointer-events: none;
+}
+
+#newsholder div {
+    background: rgb(29, 29, 29);
+    padding: 10px;
+    border-radius: 15px;
+    width: calc(25% - 20px);
+    display: flex;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #newsholder div {
+        width: calc(100% - 20px) !important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 41px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background: #1d1d1d;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #1d1d1d;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #1d1d1d;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
