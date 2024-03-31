@@ -112,7 +112,7 @@ var countryData = {
         }
     },
     "farrasland": {
-        "flag": 'farrasland.svg',
+        "flag": 'Farrasland.png',
         "Land Name": "Farrasland",
         "Capital City": "مدينة فرس",
         "Independence": "20 june 1880",
@@ -153,7 +153,7 @@ var countryData = {
         }
     },
     "welan": {
-        "flag": 'welan.svg',
+        "flag": 'Welan.png',
         "Land Name": "The Great Welan Empire",
         "Capital City": "Welan City",
         "Independence": "1 october 2001",

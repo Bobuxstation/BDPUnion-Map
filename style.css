@@ -137,7 +137,6 @@ img,
     width: 20%;
     border-radius: 15px;
     border: none;
-    pointer-events: none;
 }
 
 #newsholder div {
