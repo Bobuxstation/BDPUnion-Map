@@ -181,15 +181,23 @@ document.querySelectorAll("path").forEach(function (island) {
 
             if (country.flag === false) {
                 document.getElementById('flag').src = '';
-                document.getElementById('object').data = '';
+
+                if (document.getElementById('object')) {document.getElementById('object').remove()};
             } else if (country.flag.includes('svg')) {
-                document.getElementById('object').data = country.flag;
+                if (document.getElementById('object')) {document.getElementById('object').remove()};
+
+                let objectelem = document.createElement('object')
+                objectelem.type = 'image/svg+xml'
+                objectelem.data = country.flag
+                objectelem.id = 'object'
+                document.getElementById("countrydesc").prepend(objectelem)
+
                 document.getElementById('flag').src = '';
             } else {
                 document.getElementById('flag').src = country.flag;
-                document.getElementById('object').data = '';
+
+                if (document.getElementById('object')) {document.getElementById('object').remove()};
             }
-            document.getElementById('object').innerHTML = '';
             document.getElementById("countryName").innerHTML = '<a onclick="this.parentNode.parentNode.style.display = `none`">< </a>' + country['Land Name'];
 
             if (!country['news']) {
