@@ -172,15 +172,16 @@ var countryData = {
     "azkaland": {
         "flag": 'azkaland.svg',
         "Land Name": "Imperial Land of Azka",
-        "Capital City": "Town",
-        "Independence": "1 april 2124",
-        "Ideology": "Moderate Nationalism",
+        "Capital City": "Town/Tuhn",
+        "Independence": "1 april 2024",
+        "Ideology": "Moderate nationalist",
         "Currency": "Gold Nuggets",
         "States": "19",
-        "Main Language": "Singlish",
-        "Population": "5 000 000 000 000",
-        "Troops": "9 000 000",
-        "Religion": "Atheism (98%), Others (2%) (Mostly Islam)",
+        "Main Language": "Indonesinglish",
+        "Population": "5 bil",
+        "Troops": "9 million highly trained, 50 mil raw trained",
+        "Resources": "gold, iron, tungsten, copper, oil, emerald",
+        "Religion": "Atheism (98%), Islam (1%), Others (1%)",
         "news": {
             "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#"
         }
