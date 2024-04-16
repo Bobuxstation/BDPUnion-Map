@@ -171,7 +171,7 @@ var countryData = {
     },
     "azkaland": {
         "flag": 'azkaland.svg',
-        "Land Name": "Imperial Land of Azka",
+        "Land Name": "Imperial Land of Azka (Azkaland)",
         "Capital City": "Town/Tuhn",
         "Independence": "1 april 2024",
         "Ideology": "Moderate nationalist",
@@ -208,7 +208,7 @@ document.querySelectorAll("path").forEach(function (island) {
                 objectelem.type = 'image/svg+xml'
                 objectelem.data = country.flag
                 objectelem.id = 'object'
-                document.getElementById("countrydesc").prepend(objectelem)
+                document.getElementById("nationDetails").prepend(objectelem)
 
                 document.getElementById('flag').src = '';
             } else {
@@ -216,7 +216,7 @@ document.querySelectorAll("path").forEach(function (island) {
 
                 if (document.getElementById('object')) { document.getElementById('object').remove() };
             }
-            document.getElementById("countryName").innerHTML = '<a onclick="this.parentNode.parentNode.style.display = `none`">< </a>' + country['Land Name'];
+            document.getElementById("countryName").innerHTML = '<a onclick="this.parentNode.parentNode.style.display = `none`" style="float: right;display: flex;justify-content: center;place-items: center;height: 32px;"><i class="fa-solid fa-xmark"></i></a>' + country['Land Name'];
 
             if (!country['news']) {
                 document.getElementById('newsholder').innerText = 'No news availible!'

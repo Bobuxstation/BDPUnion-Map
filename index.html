@@ -12,6 +12,7 @@
     <link href="jquery.tipsy.css" type="text/css" rel="stylesheet" />
     <script src="jquery.js"></script>
     <script src="jquery.tipsy.min.js"></script>
+    <script src="fa.js"></script>
 </head>
 
 <body>
@@ -322,14 +323,13 @@
     </svg>
 
     <div id="countrydesc" style="display: none;">
-        <img id="flag" src="asatland.webp">
+        <h2 id="countryName"></h2>
 
-        <h1 id="countryName"></h1><br>
-
-        <p id="desc"></p><br>
-
-        <h1>News</h1><br>
-        <div id="newsholder"></div>
+        <div style="padding: 25px; overflow: auto; height: calc(100vh - 84px);" id="nationDetails">
+            <img id="flag" src="asatland.webp">
+            <p id="desc"></p>
+            <div id="newsholder"></div>
+        </div>
     </div>
 
     <span>PLAB Map (April 2024 Revision). &copy; 2024 BDP Union</span>
