@@ -170,7 +170,7 @@ var countryData = {
         }
     },
     "azkaland": {
-        "flag": 'azkaland.pnd',
+        "flag": 'azkaland.svg',
         "Land Name": "Imperial Land of Azka",
         "Capital City": "Welan City",
         "Independence": "1 april 2024",
