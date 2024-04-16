@@ -141,7 +141,7 @@ var countryData = {
         "States": "20",
         "Main Language": "english",
         "Resources": "pretty much everything",
-        "Population": "8.0 bil",
+        "Population": "4.9 bil",
         "Troops": "42.0m all active",
         "Main Animal": "CAT NAMED DOG",
         "news": {
@@ -178,7 +178,7 @@ var countryData = {
         "Currency": "Gold Nuggets",
         "States": "19",
         "Main Language": "Indonesinglish",
-        "Population": "5 bil",
+        "Population": "500 million",
         "Troops": "9 million highly trained, 50 mil raw trained",
         "Resources": "gold, iron, tungsten, copper, oil, emerald",
         "Religion": "Atheism (98%), Islam (1%), Others (1%)",
