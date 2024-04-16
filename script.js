@@ -8,7 +8,7 @@ var countryData = {
         "Ideology": "liberalism",
         "Currency": "Difar",
         "States": "19",
-        "Main Language": "english",
+        "Main Language": "English",
         "Resources": "diamond gold iron oil and wood",
         "Population": "99.607.953",
         "Troops": "991.960",
@@ -27,7 +27,7 @@ var countryData = {
         "Ideology": "freedom",
         "Currency": "ndesh",
         "States": "17",
-        "Main Language": "english",
+        "Main Language": "English",
         "Resources": "oil",
         "Population": "1 750 000 000",
         "Troops": "10 550 000",
@@ -68,14 +68,14 @@ var countryData = {
     },
     "silatland": {
         "flag": 'silatland.svg',
-        "Land Name": "Silatland",
+        "Land Name": "People's Republic of Silat (Central Silat Kingdom)",
         "Capital City": "Sakti City",
         "Leader": "King Silat IV",
         "Independence": "4th april 2004",
         "Ideology": "Communism",
         "Currency": "Bakti",
         "States": "1",
-        "Main Language": "english",
+        "Main Language": "Silatish/SilatSpeak",
         "Population": "50 000 000",
         "Troops": "10 000 000",
         "news": {
@@ -84,7 +84,7 @@ var countryData = {
     },
     "asatland": {
         "flag": 'asatland.webp',
-        "Land Name": "Asatland",
+        "Land Name": "Federation of Asatland",
         "President": "Asat",
         "Independence": "6 September 1869",
         "Ideology": "liberal democracy",
@@ -94,7 +94,7 @@ var countryData = {
         "States": "6 (Capital island, Narvian island, North Asatka, West mainland, East mainland, Asatland mandate of silatland)",
         "Capital City": "Dahlia City (formerly known as arsyadnegara)",
         "Megacities": "6 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, sutown)",
-        "Main Language": "English, Indonesian and Narvian",
+        "Main Languages": "English/Narvian",
         "Population": "4.2 bil",
         "Religion": "Islam (89%), Christianity (5%), Judaism (3%), Others (3%) (Mostly atheism)",
         "Troops": "6.9M prepared, 20M emergency",
@@ -113,7 +113,7 @@ var countryData = {
     },
     "farrasland": {
         "flag": 'Farrasland.png',
-        "Land Name": "Farrasland",
+        "Land Name": "United Farras Emirates",
         "Capital City": "مدينة فرس",
         "Independence": "20 june 1880",
         "Ideology": "Islamic",
@@ -168,12 +168,29 @@ var countryData = {
             "Welan empire has surenderred shortly after having its capital bombed by Arkaland forces": "#",
             "Welan empire have obtained nuclear weapons, marking the start of a new war.": "#",
         }
+    },
+    "azkaland": {
+        "flag": 'azkaland.svg',
+        "Land Name": "Imperial Land of Azka",
+        "Capital City": "Town",
+        "Independence": "1 april 2124",
+        "Ideology": "Moderate Nationalism",
+        "Currency": "Gold Nuggets",
+        "States": "19",
+        "Main Language": "Singlish",
+        "Population": "5 000 000 000 000",
+        "Troops": "9 000 000",
+        "Religion": "Atheism (98%), Others (2%) (Mostly Islam)",
+        "news": {
+            "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#"
+        }
     }
 }
 
 document.querySelectorAll("path").forEach(function (island) {
-    // Ensure the countryData for this island exists
     if (countryData[island.className.baseVal]) {
+        island.setAttribute("title", countryData[island.className.baseVal]['Land Name'])
+
         island.onclick = function () {
             document.getElementById("countrydesc").style.display = "block";
             var fullstr = ``;
@@ -182,9 +199,9 @@ document.querySelectorAll("path").forEach(function (island) {
             if (country.flag === false) {
                 document.getElementById('flag').src = '';
 
-                if (document.getElementById('object')) {document.getElementById('object').remove()};
+                if (document.getElementById('object')) { document.getElementById('object').remove() };
             } else if (country.flag.includes('svg')) {
-                if (document.getElementById('object')) {document.getElementById('object').remove()};
+                if (document.getElementById('object')) { document.getElementById('object').remove() };
 
                 let objectelem = document.createElement('object')
                 objectelem.type = 'image/svg+xml'
@@ -196,7 +213,7 @@ document.querySelectorAll("path").forEach(function (island) {
             } else {
                 document.getElementById('flag').src = country.flag;
 
-                if (document.getElementById('object')) {document.getElementById('object').remove()};
+                if (document.getElementById('object')) { document.getElementById('object').remove() };
             }
             document.getElementById("countryName").innerHTML = '<a onclick="this.parentNode.parentNode.style.display = `none`">< </a>' + country['Land Name'];
 
@@ -226,5 +243,19 @@ document.querySelectorAll("path").forEach(function (island) {
 
             document.getElementById("desc").innerHTML = fullstr;
         }
+    } else {
+        island.setAttribute("title", "Unclaimed Territory")
     }
+
+    $('path[title]').tipsy({
+        arrowWidth: 10,
+        attr: 'data-tipsy',
+        cls: null,
+        duration: 150,
+        offset: 0,
+        position: 'top-right',
+        trigger: 'hover',
+        onShow: null,
+        onHide: null
+    })
 });
