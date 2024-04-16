@@ -168,6 +168,21 @@ var countryData = {
             "Welan empire has surenderred shortly after having its capital bombed by Arkaland forces": "#",
             "Welan empire have obtained nuclear weapons, marking the start of a new war.": "#",
         }
+    },
+    "azkaland": {
+        "flag": 'azkaland.pnd',
+        "Land Name": "Imperial Land of Azka",
+        "Capital City": "Welan City",
+        "Independence": "1 april 2024",
+        "Ideology": "Moderate Nationalism",
+        "Currency": "Gold Nuggets",
+        "States": "19",
+        "Main Language": "Indonesinglish",
+        "Population": "5 000 000 000 000",
+        "Troops": "9 000 000",
+        "news": {
+            "Azkaland has been established.": "#",
+        }
     }
 }
 
