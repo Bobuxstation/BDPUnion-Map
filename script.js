@@ -183,7 +183,9 @@ var countryData = {
         "Resources": "gold, iron, tungsten, copper, oil, emerald",
         "Religion": "Atheism (98%), Islam (1%), Others (1%)",
         "news": {
-            "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#"
+            "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#",
+            "Government of azkaland accounces that it will not use BU$ as currency due to the citizens having suspicions about foreign interference": "#",
+            "The azkaland government entrusts exploratory laboratories with the design and production of a new performance-enhancing drug": "#"
         }
     }
 }
