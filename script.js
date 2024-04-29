@@ -154,7 +154,8 @@ var countryData = {
     },
     "welan": {
         "flag": 'Welan.png',
-        "Land Name": "The Great Welan Empire",
+        "Land Name": "The Great Welan Empire*",
+        "Information": "The Great Welan Empire is a puppet state of Arkaland",
         "Capital City": "Welan City",
         "Independence": "1 october 2001",
         "Ideology": "Fascism",
@@ -184,6 +185,21 @@ var countryData = {
         "Religion": "Atheism (98%), Islam (1%), Others (1%)",
         "news": {
             "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#"
+        }
+    },
+    "qrodexia": {
+        "flag": 'qrodexia.png',
+        "Land Name": "Qrodexia*",
+        "Information": "Qrodexia is a colony of the Asatland Federation",
+        "Capital City": "Qrodexia",
+        "Ideology": "liberal democracy",
+        "Currency": "asatbucks or BU$",
+        "States": "1",
+        "Main Language": "Sakal",
+        "Population": "12 million",
+        "Resources": "gold, copper, oil",
+        "news": {
+            "Azkaland has been granted the permit to stop on Qrodexia for rest or refueling before continuing to western Azkaland": "#"
         }
     }
 }
