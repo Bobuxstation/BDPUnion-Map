@@ -52,6 +52,12 @@
     cursor: pointer;
 }
 
+.qrodexia:hover {
+    fill: #57745b;
+    stroke: #57745b;
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;
