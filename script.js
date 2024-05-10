@@ -91,14 +91,15 @@ var countryData = {
         "Currency": "asatbucks or BU$",
         "Resources/Exports": "oil, gold, copper, tin, livestock and coal",
         "GDP": "2.3 Trillion BU$",
-        "States": "6 (Capital island, Narvian island, North Asatka, West mainland, East mainland, Asatland mandate of silatland)",
+        "States": "6 (Capital island, Narvian island, North Asatka, West mainland, East mainland, Qrodexia)",
         "Capital City": "Dahlia City (formerly known as arsyadnegara)",
-        "Megacities": "6 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, sutown)",
+        "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, sutown)",
         "Main Languages": "English/Narvian",
         "Population": "4.2 bil",
         "Religion": "Islam (89%), Christianity (5%), Judaism (3%), Others (3%) (Mostly atheism)",
         "Troops": "6.9M prepared, 20M emergency",
         "news": {
+            "Asatland warmly embraces Qrodexia into the federation.": "#",
             "Asatland's new high-speed metro now seamlessly connects all islands to a central hub on the mainland, marking the completion of its construction.": "#",
             "Asatland's government has transitioned from fascism to liberal democracy, heralding a new era of reform.": "#",
             "The inauguration of Asatland's inaugural nuclear power plant on Narvian Island has resulted in 100% of homes now receiving reliable electricity, a significant increase from the previous 85% supplied by coal power plants.": "#",
@@ -202,6 +203,33 @@ var countryData = {
         "Resources": "gold, copper, oil",
         "news": {
             "Azkaland has been granted the permit to stop on Qrodexia for rest or refueling before continuing to western Azkaland": "#"
+        }
+    },
+    "domberion": {
+        "flag": '',
+        "Land Name": "Domberion*",
+        "Information": "The approval of Domberion into the BDP Union is still pending.",
+        "news": {
+            "BDP Union welcomes Domberion with open hands.": "#"
+        }
+    },
+    "sepia": {
+        "flag": 'sepia.jpeg',
+        "President": "Mohammed Sig Ahmad",
+        "Land Name": "The Sigma's Republic of Sepia",
+        "Capital City": "New Sabinia",
+        "Independence": "10 may 2024",
+        "Ideology": "Total Sigmanism",
+        "Currency": "Diamond ML",
+        "States": "3",
+        "Main Language": "Sepian",
+        "Resources/Exports": "Infinity stone, Nokium",
+        "Exports": "GTA 6, AB Games",
+        "Population": "460 000 000",
+        "Troops": "20 000 000",
+        "Main Animal": "Sepian Manatee",
+        "news": {
+            "BDP Union welcomes The Sigma's Republic of Sepia with open hands.": "#"
         }
     }
 }
