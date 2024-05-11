@@ -97,7 +97,7 @@ var countryData = {
         "Main Languages": "English and Narvian",
         "Population": "4.2 bil",
         "Religion": "Islam (89%), Christianity (5%), Judaism (3%), Others (3%) (Mostly atheism)",
-        "Troops": "106.9M Prepared",
+        "Troops": "106.9M Prepared, 260M raw trained",
         "news": {
             "Asatland implements new weather voting system, letting citizens vote for the weather of that day": "#",
             "Asatland warmly embraces Qrodexia into the federation.": "#",
