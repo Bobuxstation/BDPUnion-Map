@@ -234,6 +234,23 @@ var countryData = {
         "news": {
             "BDP Union welcomes The Sigma's Republic of Sepia with open hands.": "#"
         }
+    },
+    "newzeanland": {
+        "flag": 'zeanland.webp',
+        "President": "Fean",
+        "Land Name": "New Zeanland",
+        "Capital City": "Kugae City",
+        "Independence": "11 may 2024",
+        "Ideology": "Liberalism",
+        "Currency": "BU$",
+        "States": "3",
+        "Main Language": "Germany",
+        "Resources": "Cotton",
+        "Population": "64 000 000",
+        "Troops": "400 000",
+        "news": {
+            "New Zeanland declares independence after the liberation pact war.": "#"
+        }
     }
 }
 

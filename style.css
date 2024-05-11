@@ -58,6 +58,12 @@
     cursor: pointer;
 }
 
+.newzeanland:hover {
+    fill: #6d6d6d;
+    stroke: #6d6d6d;
+    cursor: pointer;
+}
+
 .sepia:hover {
     fill: #57745b;
     stroke: #57745b;
