@@ -52,7 +52,13 @@
     cursor: pointer;
 }
 
-.qrodexia:hover {
+.domberion:hover {
+    fill: #333333;
+    stroke: #333333;
+    cursor: pointer;
+}
+
+.sepia:hover {
     fill: #57745b;
     stroke: #57745b;
     cursor: pointer;
