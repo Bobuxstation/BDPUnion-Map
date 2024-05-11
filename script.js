@@ -226,7 +226,7 @@ var countryData = {
         "Currency": "Diamond ML",
         "States": "3",
         "Main Language": "Sepian",
-        "Resources/Exports": "Infinity stone, Nokium",
+        "Resources": "Infinity stone, Nokium",
         "Exports": "GTA 6, AB Games",
         "Population": "460 000 000",
         "Troops": "20 000 000",
