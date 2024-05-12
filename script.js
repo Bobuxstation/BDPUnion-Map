@@ -236,7 +236,7 @@ var countryData = {
         }
     },
     "newzeanland": {
-        "flag": 'zeanland.webp',
+        "flag": 'Neuzeanland.png',
         "President": "Fean",
         "Land Name": "New Zeanland",
         "Capital City": "Kugae City",
