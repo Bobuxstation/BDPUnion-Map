@@ -244,7 +244,7 @@ var countryData = {
         "Ideology": "Liberalism",
         "Currency": "BU$",
         "States": "3",
-        "Main Language": "Germany",
+        "Main Language": "German",
         "Resources": "Cotton",
         "Population": "64 000 000",
         "Troops": "400 000",
