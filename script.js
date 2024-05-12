@@ -91,7 +91,7 @@ var countryData = {
         "Currency": "asatbucks or BU$",
         "Resources/Exports": "oil, gold, copper, tin, livestock and coal",
         "GDP": "2.3 Trillion BU$",
-        "States": "6 (Capital island, Narvian island, North Asatka, West mainland, East mainland, Qrodexia)",
+        "States": "7 (Capital island, Narvia, Asatka, West mainland, East mainland, Qrodexia, South Welan Isles)",
         "Capital City": "Dahlia City (formerly known as arsyadnegara)",
         "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, sutown)",
         "Main Languages": "English and Narvian",
