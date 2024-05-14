@@ -69,6 +69,7 @@ var countryData = {
     "silatland": {
         "flag": 'silatland.svg',
         "Land Name": "People's Republic of Silat (Central Silat Kingdom)",
+        "Information": "Silatland is a puppet state controlled by 3 nations (north controlled by nandaland, south controlled by arkaland and middle island controlled by asatland)",
         "Capital City": "Sakti City",
         "Leader": "King Silat IV",
         "Independence": "4th april 2004",
