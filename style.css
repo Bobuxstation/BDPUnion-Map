@@ -70,6 +70,12 @@
     cursor: pointer;
 }
 
+.leoneury:hover {
+    fill: #c257c2;
+    stroke: #c257c2;
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;

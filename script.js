@@ -236,6 +236,23 @@ var countryData = {
             "BDP Union welcomes The Sigma's Republic of Sepia with open hands.": "#"
         }
     },
+    "leoneury": {
+        "flag": 'leoneury.webp',
+        "President": "Elfarol",
+        "Land Name": "Republic of Leoneury",
+        "Capital City": "Degtreven",
+        "Independence": "21 june 2024",
+        "Ideology": "liberalism",
+        "Currency": "LeoDollars",
+        "Main Language": "English",
+        "Resources": "Oil",
+        "Population": "78 000 000",
+        "Troops": "10 000 000",
+        "Main Animal": "Fatehur (emu like bird)",
+        "news": {
+            "BDP Union welcomes The Republic of Leoneury with open hands.": "#"
+        }
+    },
     "newzeanland": {
         "flag": 'Neuzeanland.png',
         "President": "Fean",
