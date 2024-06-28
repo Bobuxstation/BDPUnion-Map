@@ -91,7 +91,7 @@ var countryData = {
         "Ideology": "liberal democracy",
         "Currency": "asatbucks or BU$",
         "Resources/Exports": "oil, gold, copper, tin, livestock and coal",
-        "GDP": "2.3 Trillion BU$",
+        "GDP": "23 Trillion BU$",
         "States": "7 (Capital island, Narvia, Asatka, West mainland, East mainland, Qrodexia, South Welan Isles)",
         "Capital City": "Dahlia City (formerly known as arsyadnegara)",
         "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, sutown)",
