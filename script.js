@@ -1,6 +1,6 @@
 var countryData = {
     "rafidland": {
-        "flag": 'rafidland.svg',
+        "flag": 'rafidland.png',
 
         "President": "Rafid",
         "Land Name": "Rafid land",
