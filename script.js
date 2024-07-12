@@ -35,12 +35,12 @@ var countryData = {
 
         "Land Name": "Nanda land",
         "Independence": "25 May 1863",
-        "Ideology": "freedom",
+        "Ideology": "democracy",
 
         "spacing1": "spacingElem",
 
         "Currency": "ndesh",
-        "Resources": "oil",
+        "Resources": "oil, grain, gold and wood",
 
         "spacing2": "spacingElem",
 
