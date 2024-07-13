@@ -226,7 +226,7 @@ var countryData = {
 
         "Main Language": "english",
         "Population": "4.9 bil",
-        "Troops": "42.0m all active",
+        "Troops": "30.0m active 12.0m reserve",
        
         "news": {
             "Arkaland have reduced the legal age of drinking from 21 to 18": "#",
