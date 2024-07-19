@@ -160,6 +160,8 @@ var countryData = {
         "Troops": "106.9M Prepared, 260K raw trained",
 
         "news": {
+            "Asatland has enacted a new policy to bolster its economy by requiring foreign countries to build factories within its borders instead of buying raw resources directly.": "#",
+            "This morning, Central Dahlia City launched its first tram network to tackle traffic issues and promote public transportation. It's free to use and runs twice as fast as sprinting.": "#",
             "Asatland implements new weather voting system, letting citizens vote for the weather of that day": "#",
             "Asatland warmly embraces Qrodexia into the federation.": "#",
             "Asatland's new high-speed metro now seamlessly connects all islands to a central hub on the mainland, marking the completion of its construction.": "#",
@@ -225,7 +227,7 @@ var countryData = {
         "spacing3": "spacingElem",
 
         "Main Language": "english",
-        "Population": "4.9 bil",
+        "Population": "5.0 bil",
         "Troops": "30.0m active 12.0m reserve",
        
         "news": {
