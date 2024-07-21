@@ -11,7 +11,7 @@ var countryData = {
         "spacing1": "spacingElem",
 
         "Currency": "Difar",
-        "Resources": "diamond gold iron oil and wood",
+        "Resources": "diamond, gold, iron, oil and wood",
 
         "spacing2": "spacingElem",
 
@@ -23,7 +23,7 @@ var countryData = {
         "Main Language": "English",
         "Population": "99.607.953",
         "Troops": "991.960",
-        "Religion": "muslim (90%) hindu (10%)",
+        "Religion": "hindu (60%), muslim (40%)",
 
         "news": {
             "Rafid Land has relocated its cities underground, using the surface structures as decoys to detect potential nuclear threats, while ensuring the safety of all citizens residing in the subterranean cities.": "#",
@@ -50,8 +50,9 @@ var countryData = {
         "spacing3": "spacingElem",
 
         "Main Language": "English",
-        "Population": "1 750 000 000",
+        "Population": "3 694 000 000 (Population density of 20/km2)",
         "Troops": "10 550 000",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
 
         "news": {
             "Nandaland has successfully invaded Silatland with Arkaland, dividing it into North and South Silatland.": "#"
@@ -82,7 +83,6 @@ var countryData = {
         "Population": "1.739.213.792",
         "Active Troops": "194.769.895",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
-        "Race Population": "Asian Mongoloid (64.8%), Malayan Mongoloid (36.2%), Caucasian (9.6%), Melanenoid (0.3%)",
 
         "news": {
             "Kugae is now held hostage by Liberation PACT": "#",
@@ -124,6 +124,7 @@ var countryData = {
         "Main Language": "Silatish/SilatSpeak",
         "Population": "50 000 000",
         "Troops": "10 000 000",
+        "Religion": "Atheism (70%) hindu/buddha (30%)",
 
         "news": {
             "Silat Land has inaugurated its first nuclear power plant, a development with potential implications. The concern arises over the possibility of nuclear weapon acquisition.": "#"
@@ -148,16 +149,16 @@ var countryData = {
 
         "spacing3": "spacingElem",
 
-        "States": "11 (Dahlia, Narvia, Sakal, Las Adminos, North Asatka, New Kugae, Cottbus, East Coast, Ortakent, Qrodexia, Welan Isles)",
+        "States": "11 (Dahlia, Narvia, Sakal, Adminos, North Asatka, New Kugae, Cottbus, East Coast, Ortakent, Qrodexia, Welan Isles)",
         "Capital City": "Dahlia City",
         "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, Tahm City)",
 
         "spacing4": "spacingElem",
 
         "Main Languages": "English and Narvian-Sakal",
-        "Population": "4.2 bil",
-        "Religion": "Islam (82%), Christianity (12%), Atheism (4%), Judaism (2%)",
-        "Troops": "106.9M Prepared, 260K raw trained",
+        "Population": "10,246,500,000 (Population density of 45/km2)",
+        "Religion": "Islam (72%), Christianity (13%), Atheism (10%), Judaism (5%)",
+        "Troops": "56M Prepared, 50.9M Backup & 260K raw trained",
 
         "news": {
             "Asatland has enacted a new policy to bolster its economy by requiring foreign countries to build factories within its borders instead of buying raw resources directly.": "#",
@@ -197,6 +198,7 @@ var countryData = {
         "Main Language": "Arabic",
         "Population": "290 000 000",
         "Troops": "6 000 000",
+        "Religion": "Islam (99.9%), Others (0.1%)",
 
         "news": {
             "Farrasland teeters on the brink of civil war as the majority of non-Muslims advocate for the creation of a separate nation.": "#",
@@ -227,8 +229,9 @@ var countryData = {
         "spacing3": "spacingElem",
 
         "Main Language": "english",
-        "Population": "5.0 bil",
+        "Population": "9.79 bil (population density of 35/km²)",
         "Troops": "30.0m active 12.0m reserve",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
        
         "news": {
             "Arkaland have reduced the legal age of drinking from 21 to 18": "#",
@@ -304,6 +307,7 @@ var countryData = {
         "Main Language": "Sepian",
         "Population": "460 000 000",
         "Troops": "20 000 000",
+        "Religion": "Islam (79.8%), Hinduism (15.2%), Buddhism (2.3%), Local Paganism (1.4%), Catholic (1.3%)",
         
         "news": {
             "BDP Union welcomes The Sigma's Republic of Sepia with open hands.": "#"
@@ -332,6 +336,7 @@ var countryData = {
         "Main Language": "English",
         "Population": "78 000 000",
         "Troops": "10 000 000",
+        "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
         
         "news": {
             "BDP Union welcomes The Republic of Leoneury with open hands.": "#"
@@ -358,8 +363,10 @@ var countryData = {
         "spacing3": "spacingElem",
         
         "Main Language": "German",
-        "Population": "64 000 000",
-        "Troops": "400 000",
+        "Population": "2 410 000 000 (Population density of 100/km2)",
+        "Troops": "10 500 000 Prepared",
+        "Religion": "Feanism (99.9%), Others (0.1%)",
+        
         "news": {
             "New Zeanland declares independence after the liberation pact war.": "#"
         }
