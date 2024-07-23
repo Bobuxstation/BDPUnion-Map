@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Plab Olympics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Inter;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body {
+            height: 100vh;
+            background: url('https://cdn1.epicgames.com/ue/product/Screenshot/SportsStadium002-1920x1080-a89e296a55ccbdd132f59acb017b9f8e.jpg?resize=1&w=1920');
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            place-items: center;
+            backdrop-filter: blur(15px);
+        }
+
+        #winners {
+            background-color: #ffffffab;
+            padding: 20px;
+            width: 75vw;
+            background-image: url('plab olympics.png');
+            background-size: 15vw;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            border-radius: 25px;
+            box-shadow: #00000030 0px 0px 20px;
+        }
+
+        #winners p {
+            padding: 10px;
+            width: 50vw;
+            color: #1d1d1d;
+        }
+
+        .first {
+            border-radius: 10px 0px 0px 0px;
+            background: rgb(255, 215, 0);
+            background: linear-gradient(90deg, rgba(255, 215, 0, 1) 12%, rgba(45, 45, 45, 0) 100%);
+        }
+
+        .second {
+            background: rgb(177, 177, 177);
+            background: linear-gradient(90deg, rgb(177, 177, 177) 12%, rgba(45, 45, 45, 0) 100%);
+        }
+
+        .third {
+            border-radius: 0px 0px 0px 10px;
+            background: rgb(205, 127, 50);
+            background: linear-gradient(90deg, rgba(205, 127, 50, 1) 12%, rgba(45, 45, 45, 0) 100%);
+        }
+
+        #winners h1 {
+            float: right;
+            text-align: right;
+            padding: 20px;
+            font-weight: 1000;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="winners">
+        <h1>
+            <span id="category"></span> - Results<br>
+            Plab Olympics
+        </h1>
+    </div>
+    <script>
+        function shuffle(array) {
+            let currentIndex = array.length;
+            while (currentIndex != 0) {
+                let randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                [array[currentIndex], array[randomIndex]] = [
+                    array[randomIndex], array[currentIndex]];
+            }
+        }
+
+        var countries = ["Asatland", "Arkaland", "Nandaland", "Farrasland", "Zeanland", "Leoneury", "Azkaland", "Rafidland", "SR. Sepia", "New Zeanland", "Domberion"]
+        document.getElementById("category").innerText = prompt("Enter category:")
+        shuffle(countries)
+        shuffle(countries)
+        shuffle(countries)
+        
+        countries.forEach(function (item, index) {
+            var medal = ''
+            var elemClass = ''
+            if (index == 0) {
+                medal = "🥇 "
+                elemClass = "first"
+            } else if (index == 1) {
+                medal = "🥈 "
+                elemClass = "second"
+            } else if (index == 2) {
+                medal = "🥉 "
+                elemClass = "third"
+            } else {
+                medal = "🏅 "//(index + 1) + ". "
+                elemClass = "others"
+            }
+
+            var element = document.createElement('p')
+            element.innerText = medal + item
+            element.className = elemClass
+            document.getElementById("winners").appendChild(element)
+        })
+    </script>
+</body>
+
+</html>

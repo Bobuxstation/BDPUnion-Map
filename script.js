@@ -1,19 +1,30 @@
 var countryData = {
     "rafidland": {
-        "flag": 'rafidland.svg',
+        "flag": 'rafidland.png',
+
         "President": "Rafid",
         "Land Name": "Rafid land",
-        "Capital City": "Rafidus",
-        "Independence": "9 September 1999",
+        "Independence date": "9 September 1999",
         "Ideology": "liberalism",
+        "Main Animal": "cat",
+
+        "spacing1": "spacingElem",
+
         "Currency": "Difar",
+        "Resources": "diamond, gold, iron, oil and wood",
+
+        "spacing2": "spacingElem",
+
         "States": "19",
+        "Capital City": "Rafidus",
+
+        "spacing3": "spacingElem",
+
         "Main Language": "English",
-        "Resources": "diamond gold iron oil and wood",
         "Population": "99.607.953",
         "Troops": "991.960",
-        "Main Animal": "cat",
-        "Religion": "muslim (90%) hindu (10%)",
+        "Religion": "hindu (60%), muslim (40%)",
+
         "news": {
             "Rafid Land has relocated its cities underground, using the surface structures as decoys to detect potential nuclear threats, while ensuring the safety of all citizens residing in the subterranean cities.": "#",
             "Rafid Land has commenced the construction of underground/undersea highways, linking it with the central continent via Zeanland.": "#",
@@ -21,36 +32,58 @@ var countryData = {
     },
     "nandaland": {
         "flag": "nandaland.svg",
+
         "Land Name": "Nanda land",
-        "Capital City": "Nandus",
         "Independence": "25 May 1863",
-        "Ideology": "freedom",
+        "Ideology": "democracy",
+
+        "spacing1": "spacingElem",
+
         "Currency": "ndesh",
+        "Resources": "oil, grain, gold and wood",
+
+        "spacing2": "spacingElem",
+
         "States": "17",
+        "Capital City": "Nandus",
+
+        "spacing3": "spacingElem",
+
         "Main Language": "English",
-        "Resources": "oil",
-        "Population": "1 750 000 000",
+        "Population": "3 694 000 000 (Population density of 20/km2)",
         "Troops": "10 550 000",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
+
         "news": {
             "Nandaland has successfully invaded Silatland with Arkaland, dividing it into North and South Silatland.": "#"
         }
     },
     "zeanland": {
         "flag": "zeanland.webp",
+
         "Land Name": "Zeanland",
         "Type": "Republic",
         "Ideology": "Liberalism",
         "National Anthem": "Meine Land",
+        "Bans": "Smoking, drugs, money laundry",
+
+        "spacing1": "spacingElem",
+
         "States": "15",
         "Capital City": "Glorreiche",
-        "Economy": "BU dollar",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "BU dollar",
+        "Resources": "Barley, Rice, Wheat, Black Pepper, Iron, Copper",
+
+        "spacing3": "spacingElem",
+
         "Main Language": "German",
         "Population": "1.739.213.792",
         "Active Troops": "194.769.895",
-        "Bans": "Smoking, drugs, money laundry",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
-        "Race Population": "Asian Mongoloid (64.8%), Malayan Mongoloid (36.2%), Caucasian (9.6%), Melanenoid (0.3%)",
-        "Resources": "Barley, Rice, Wheat, Black Pepper, Iron, Copper",
+
         "news": {
             "Kugae is now held hostage by Liberation PACT": "#",
             "Zeanland bans cinema from disallowing people to bring outside food": "#",
@@ -68,37 +101,68 @@ var countryData = {
     },
     "silatland": {
         "flag": 'silatland.svg',
+        "Information": "Silatland is a puppet state (north controlled by Nanda land, south controlled by Arkaland and east controlled by the Federation of Asatland)",
+
+        "spacing1": "spacingElem",
+
         "Land Name": "People's Republic of Silat (Central Silat Kingdom)",
-        "Capital City": "Sakti City",
         "Leader": "King Silat IV",
         "Independence": "4th april 2004",
         "Ideology": "Communism",
-        "Currency": "Bakti",
+
+        "spacing2": "spacingElem",
+        
         "States": "1",
+        "Capital City": "Sakti City",
+
+        "spacing3": "spacingElem",
+        
+        "Currency": "Bakti",
+        
+        "spacing4": "spacingElem",
+
         "Main Language": "Silatish/SilatSpeak",
         "Population": "50 000 000",
         "Troops": "10 000 000",
+        "Religion": "Atheism (70%) hindu/buddha (30%)",
+
         "news": {
             "Silat Land has inaugurated its first nuclear power plant, a development with potential implications. The concern arises over the possibility of nuclear weapon acquisition.": "#"
         }
     },
     "asatland": {
+        "Information": "Statistics are collected by the Federal Department of Statistics (updated June 2024).",
         "flag": 'asatland.webp',
+
+        "spacing1": "spacingElem",
+
         "Land Name": "Federation of Asatland",
         "President": "Asat",
-        "Independence": "6 September 1869",
+        "Independence date": "6 September 1869",
         "Ideology": "liberal democracy",
+
+        "spacing2": "spacingElem",
+
         "Currency": "asatbucks or BU$",
         "Resources/Exports": "oil, gold, copper, tin, livestock and coal",
-        "GDP": "2.3 Trillion BU$",
-        "States": "6 (Capital island, Narvian island, North Asatka, West mainland, East mainland, Qrodexia)",
-        "Capital City": "Dahlia City (formerly known as arsyadnegara)",
-        "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, sutown)",
-        "Main Languages": "English and Narvian",
-        "Population": "4.2 bil",
-        "Religion": "Islam (89%), Christianity (5%), Judaism (3%), Others (3%) (Mostly atheism)",
-        "Troops": "106.9M Prepared",
+        "GDP": "23 Trillion BU$",
+
+        "spacing3": "spacingElem",
+
+        "States": "11 (Dahlia, Narvia, Sakal, Adminos, North Asatka, New Kugae, Cottbus, East Coast, Ortakent, Qrodexia, Welan Isles)",
+        "Capital City": "Dahlia City",
+        "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, Tahm City)",
+
+        "spacing4": "spacingElem",
+
+        "Main Languages": "English and Narvian-Sakal",
+        "Population": "10,246,500,000 (Population density of 45/km2)",
+        "Religion": "Islam (72%), Christianity (13%), Atheism (10%), Judaism (5%)",
+        "Troops": "56M Prepared, 50.9M Backup & 260K raw trained",
+
         "news": {
+            "Asatland has enacted a new policy to bolster its economy by requiring foreign countries to build factories within its borders instead of buying raw resources directly.": "#",
+            "This morning, Central Dahlia City launched its first tram network to tackle traffic issues and promote public transportation. It's free to use and runs twice as fast as sprinting.": "#",
             "Asatland implements new weather voting system, letting citizens vote for the weather of that day": "#",
             "Asatland warmly embraces Qrodexia into the federation.": "#",
             "Asatland's new high-speed metro now seamlessly connects all islands to a central hub on the mainland, marking the completion of its construction.": "#",
@@ -115,15 +179,27 @@ var countryData = {
     },
     "farrasland": {
         "flag": 'Farrasland.png',
+
         "Land Name": "United Farras Emirates",
-        "Capital City": "مدينة فرس",
         "Independence": "20 june 1880",
-        "Ideology": "Islamic",
-        "Currency": "Dinar",
+        "Ideology": "Sharia",
+
+        "spacing1": "spacingElem",
+        
         "States": "1",
+        "Capital City": "مدينة فرس",
+
+        "spacing2": "spacingElem",
+        
+        "Currency": "Dinar",
+
+        "spacing3": "spacingElem",
+        
         "Main Language": "Arabic",
         "Population": "290 000 000",
         "Troops": "6 000 000",
+        "Religion": "Islam (99.9%), Others (0.1%)",
+
         "news": {
             "Farrasland teeters on the brink of civil war as the majority of non-Muslims advocate for the creation of a separate nation.": "#",
             "Farrasland has re-entered the BDP Union following diplomatic efforts to restore peace.": "#",
@@ -134,17 +210,29 @@ var countryData = {
     },
     "arkaland": {
         "flag": "arka_land_flag_2.png",
-        "President": "arka",
+
         "Land Name": "Arkaland",
-        "Capital City": "arkus",
+        "President": "arka",
         "Independence": "28 September 1715",
-        "Ideology": "social democracy",
-        "Currency": "BU dollar",
-        "Main Language": "english",
-        "Resources": "pretty much everything",
-        "Population": "4.9 bil",
-        "Troops": "42.0m all active",
+        "Ideology": "social democracy", 
         "Main Animal": "CAT NAMED DOG",
+
+        "spacing1": "spacingElem",
+        
+        "Capital City": "arkus",
+
+        "spacing2": "spacingElem",
+        
+        "Currency": "BU dollar",
+        "Resources": "pretty much everything",
+
+        "spacing3": "spacingElem",
+
+        "Main Language": "english",
+        "Population": "9.79 bil (population density of 35/km²)",
+        "Troops": "30.0m active 12.0m reserve",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
+       
         "news": {
             "Arkaland have reduced the legal age of drinking from 21 to 18": "#",
             "Arkaland gdp increased by 3.5% in Q1, we expect it to increase by 3.6% in Q2": "#",
@@ -156,56 +244,34 @@ var countryData = {
             "Cryptocurrency is legalized": "https://docs.google.com/document/d/1ee8S9umvprNcFOBGBQxX4HzxMBgacOC1p7Zt1yw2b2g/edit?usp=sharing"
         }
     },
-    "welan": {
-        "flag": 'Welan.png',
-        "Land Name": "The Great Welan Empire*",
-        "Information": "The Great Welan Empire is a puppet state of Arkaland",
-        "Capital City": "Welan City",
-        "Independence": "1 october 2001",
-        "Ideology": "Fascism",
-        "Currency": "Silver",
-        "States": "5",
-        "Main Language": "Welanese (cyrillic)",
-        "Population": "89 000 000",
-        "Troops": "100 000",
-        "news": {
-            "Under Arkaland's rule as a puppet state, the Welan Empire has seen a notable rise in life expectancy.": "#",
-            "Welan empire has surenderred shortly after having its capital bombed by Arkaland forces": "#",
-            "Welan empire have obtained nuclear weapons, marking the start of a new war.": "#",
-        }
-    },
     "azkaland": {
         "flag": 'azkaland.svg',
+
         "Land Name": "Imperial Land of Azka (Azkaland)",
-        "Capital City": "Town/Tuhn",
         "Independence": "1 april 2024",
         "Ideology": "Moderate nationalist",
-        "Currency": "Gold Nuggets",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Town/Tuhn",
         "States": "19",
+
+        "spacing2": "spacingElem",
+        
+        "Currency": "Gold Nuggets",
+        "Resources": "gold, iron, tungsten, copper, oil, emerald",
+
+        "spacing3": "spacingElem",
+        
         "Main Language": "Indonesinglish",
         "Population": "500 million",
         "Troops": "9 million highly trained, 50 mil raw trained",
-        "Resources": "gold, iron, tungsten, copper, oil, emerald",
         "Religion": "Atheism (98%), Islam (1%), Others (1%)",
+
         "news": {
             "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#",
             "Government of azkaland accounces that it will not use BU$ as currency due to the citizens having suspicions about foreign interference": "#",
             "The azkaland government entrusts exploratory laboratories with the design and production of a new performance-enhancing drug": "#"
-        }
-    },
-    "qrodexia": {
-        "flag": 'qrodexia.png',
-        "Land Name": "Qrodexia*",
-        "Information": "Qrodexia is a colony of the Asatland Federation",
-        "Capital City": "Qrodexia",
-        "Ideology": "liberal democracy",
-        "Currency": "asatbucks or BU$",
-        "States": "1",
-        "Main Language": "Sakal",
-        "Population": "12 million",
-        "Resources": "gold, copper, oil",
-        "news": {
-            "Azkaland has been granted the permit to stop on Qrodexia for rest or refueling before continuing to western Azkaland": "#"
         }
     },
     "domberion": {
@@ -218,21 +284,91 @@ var countryData = {
     },
     "sepia": {
         "flag": 'sepia.jpeg',
+
         "President": "Mohammed Sig Ahmad",
         "Land Name": "The Sigma's Republic of Sepia",
-        "Capital City": "New Sabinia",
         "Independence": "10 may 2024",
         "Ideology": "Total Sigmanism",
-        "Currency": "Diamond ML",
+        "Main Animal": "Sepian Manatee",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "New Sabinia",
         "States": "3",
-        "Main Language": "Sepian",
+
+        "spacing2": "spacingElem",
+        
+        "Currency": "Diamond ML",
         "Resources": "Infinity stone, Nokium",
         "Exports": "GTA 6, AB Games",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "Sepian",
         "Population": "460 000 000",
         "Troops": "20 000 000",
-        "Main Animal": "Sepian Manatee",
+        "Religion": "Islam (79.8%), Hinduism (15.2%), Buddhism (2.3%), Local Paganism (1.4%), Catholic (1.3%)",
+        
         "news": {
             "BDP Union welcomes The Sigma's Republic of Sepia with open hands.": "#"
+        }
+    },
+    "leoneury": {
+        "flag": 'leoneury.webp',
+
+        "President": "Elfarol",
+        "Land Name": "Republic of Leoneury",
+        "Ideology": "liberalism",
+        "Main Animal": "Fatehur (emu like bird)",
+        "Independence": "21 june 2024",
+
+        "spacing1": "spacingElem",
+        
+        "Capital City": "Degtreven",
+
+        "spacing2": "spacingElem",
+        
+        "Currency": "LeoDollars",
+        "Resources": "Oil",
+
+        "spacing3": "spacingElem",
+
+        "Main Language": "English",
+        "Population": "78 000 000",
+        "Troops": "10 000 000",
+        "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
+        
+        "news": {
+            "BDP Union welcomes The Republic of Leoneury with open hands.": "#"
+        }
+    },
+    "newzeanland": {
+        "flag": 'Neuzeanland.png',
+
+        "President": "Fean",
+        "Land Name": "New Zeanland",
+        "Independence": "11 may 2024",
+        "Ideology": "Liberalism",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Kugae City",
+        "States": "3",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "BU$",
+        "Resources": "Cotton",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "German",
+        "Population": "2 410 000 000 (Population density of 100/km2)",
+        "Troops": "10 500 000 Prepared",
+        "Religion": "Feanism (99.9%), Others (0.1%)",
+        
+        "news": {
+            "New Zeanland declares independence after the liberation pact war.": "#"
         }
     }
 }
@@ -287,7 +423,19 @@ document.querySelectorAll("path").forEach(function (island) {
                     return
                 }
 
-                let currline = `<b>${item}</b>: ${country[item]}<br>`;
+                var addcolon = ":"
+                var itemstr = item
+                var valuestr = country[item]
+                if (country[item] == "spacingElem") {
+                    addcolon = ""
+                    itemstr = ""
+                    valuestr = ""
+                }
+                if (country[item] == "") {
+                    addcolon = ""
+                }
+
+                let currline = `<b>${itemstr}</b>${addcolon} ${valuestr}<br>`;
                 fullstr += currline;
             });
 
