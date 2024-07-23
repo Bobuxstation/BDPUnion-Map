@@ -80,7 +80,7 @@ var countryData = {
         "spacing3": "spacingElem",
 
         "Main Language": "German",
-        "Population": "8.374.820.721 (density of 99/km2)",
+        "Population": "7.374.820.721 (density of 99/km2)",
         "Active Troops": "921.634.103",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
 
@@ -352,8 +352,8 @@ var countryData = {
 
         "spacing1": "spacingElem",
 
-        "Capital City": "Kugae City",
-        "States": "3",
+        "Capital City": "East Glorreiche",
+        "Provinces": "4",
 
         "spacing2": "spacingElem",
 
@@ -369,6 +369,35 @@ var countryData = {
         
         "news": {
             "New Zeanland declares independence after the liberation pact war.": "#"
+        }
+    },
+    "maritimia": {
+        "flag": 'ROM.png',
+
+        "President": "Hans Fisch",
+        "Land Name": "Republic of Maritimia",
+        "Independence": "23 july 2024",
+        "Ideology": "Social Democracy",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Seefischerhafenstadtbeckenwasserburg an der Küstenmeeresküste",
+        "Provinces": "2",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "Maritimian Shells (M$)",
+        "Resources": "Oil and Fish",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "German",
+        "Population": "1 000 000 000",
+        "Troops": "100 000 000 Prepared",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
+        
+        "news": {
+            "The Republic of Maritimia declares independence after the Glorreiche coup.": "#"
         }
     }
 }
