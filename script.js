@@ -368,6 +368,7 @@ var countryData = {
         "Religion": "Feanism (99.9%), Others (0.1%)",
         
         "news": {
+            "New Zeanland moves its capital to east Glorreiche after the successful 2024 Zeanland coup.": "#",
             "New Zeanland declares independence after the liberation pact war.": "#"
         }
     },
