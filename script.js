@@ -406,7 +406,36 @@ var countryData = {
         "news": {
             "The Republic of Maritimia declares independence after the Glorreiche coup.": "#"
         }
-    }
+    },
+    "atherium": {
+        "flag": 'Atherium.webp',
+        
+        "President": "Alar Lucian",
+        "Land Name": "Atherium Republic",
+        "Independence": "6 August 2024",
+        "Ideology": "Liberalism",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Cecilia",
+        "States": "2",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "Cypto Currency",
+        "Resources": "Water, Agricultural Land, Marble, Limestone, and Quartz",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "Latin & Arabic",
+        "Population": "34 000 000",
+        "Troops": "390 000",
+        "Religion": "Atheism (68%), Others/Religious (32%)",
+        
+        "news": {
+            "Atherium declares independence from Farrasland.": "#",
+        }
+    },
 }
 
 document.querySelectorAll("path").forEach(function (island) {
