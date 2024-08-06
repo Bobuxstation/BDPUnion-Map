@@ -199,7 +199,7 @@ var countryData = {
         "spacing3": "spacingElem",
         
         "Main Language": "Arabic",
-        "Population": "290 000 000",
+        "Population": "256 000 000",
         "Troops": "6 000 000",
         "Religion": "Islam (99.9%), Others (0.1%)",
 
