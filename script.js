@@ -143,9 +143,8 @@ var countryData = {
 
         "spacing2": "spacingElem",
 
-        "Currency": "asatbucks or BU$",
+        "Currency": "Asatbucks or BU$",
         "Resources/Exports": "oil, gold, copper, tin, livestock and coal",
-        "GDP": "23 Trillion BU$",
 
         "spacing3": "spacingElem",
 
@@ -209,7 +208,7 @@ var countryData = {
         }
     },
     "arkaland": {
-        "flag": "arka_land_flag_2.png",
+        "flag": "Arkaland_Flag_Peace.webp",
 
         "Land Name": "Arkaland",
         "President": "arka",
@@ -345,7 +344,7 @@ var countryData = {
     "newzeanland": {
         "flag": 'Neuzeanland.png',
 
-        "President": "Fean",
+        "President": "Dean Bender",
         "Land Name": "New Zeanland",
         "Independence": "11 may 2024",
         "Ideology": "Liberalism",
@@ -364,8 +363,8 @@ var countryData = {
         
         "Main Language": "German",
         "Population": "2 410 000 000 (Population density of 100/km2)",
-        "Troops": "10 500 000 Prepared",
-        "Religion": "Feanism (99.9%), Others (0.1%)",
+        "Troops": "100 000 Prepared",
+        "Religion": "Feanism (35%), Deanism (64.9%), Others (0.1%)",
         
         "news": {
             "New Zeanland moves its capital to east Glorreiche after the successful 2024 Zeanland coup.": "#",
