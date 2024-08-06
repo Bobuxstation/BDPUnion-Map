@@ -131,6 +131,15 @@ svg {
     animation-fill-mode: both;
 }
 
+#desc a {
+    color: white;
+    text-decoration: none;
+}
+
+#desc i {
+    font-size: 13px;
+}
+
 a {
     cursor: pointer;
 }

@@ -60,6 +60,9 @@ var countryData = {
     },
     "zeanland": {
         "flag": "zeanland.webp",
+        "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Zeanland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
+
+        "spacingwiki": "spacingElem",
 
         "Land Name": "Zeanland",
         "Type": "Republic",
@@ -132,6 +135,7 @@ var countryData = {
     },
     "asatland": {
         "Information": "Statistics are collected by the Federal Department of Statistics (updated June 2024).",
+        "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Federation_of_Asatland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
         "flag": 'asatland.webp',
 
         "spacing1": "spacingElem",
@@ -343,6 +347,9 @@ var countryData = {
     },
     "newzeanland": {
         "flag": 'Neuzeanland.png',
+        "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/New_Zeanland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
+
+        "spacingwiki": "spacingElem",
 
         "President": "Dean Bender",
         "Land Name": "New Zeanland",
