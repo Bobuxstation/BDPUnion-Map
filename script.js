@@ -249,10 +249,13 @@ var countryData = {
     },
     "azkaland": {
         "flag": 'azkaland.svg',
+        "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Azkaland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
 
-        "Land Name": "Imperial Land of Azka (Azkaland)",
+        "spacingwiki": "spacingElem",
+
+        "Land Name": "Kingdom of Azka (Azkaland)",
         "Independence": "1 april 2024",
-        "Ideology": "Moderate nationalist",
+        "Ideology": "Monarchism",
 
         "spacing1": "spacingElem",
 
@@ -269,7 +272,7 @@ var countryData = {
         "Main Language": "Indonesinglish",
         "Population": "500 million",
         "Troops": "9 million highly trained, 50 mil raw trained",
-        "Religion": "Atheism (98%), Islam (1%), Others (1%)",
+        "Religion": "Atheism (96%), Islam (3%), Others (1%)",
 
         "news": {
             "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#",
