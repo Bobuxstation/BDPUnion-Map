@@ -88,6 +88,7 @@ var countryData = {
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
 
         "news": {
+            "Zeanland kicks Tencent out for evading taxes. Riot Games will be in charge distributing Tencent's game onto Zeanland": "#",
             "Kugae is now held hostage by Liberation PACT": "#",
             "Zeanland bans cinema from disallowing people to bring outside food": "#",
             "Zeanland bans limited account on steam": "#",
