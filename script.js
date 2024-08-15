@@ -84,7 +84,7 @@ var countryData = {
 
         "Main Language": "German",
         "Population": "8.374.820.721 (density of 99/km2)",
-        "Active Troops": "921.634.103",
+        "Active Troops": "32.374.923",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
 
         "news": {
