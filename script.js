@@ -439,6 +439,64 @@ var countryData = {
             "Atherium declares independence from Farrasland.": "#",
         }
     },
+    "duravan": {
+        "flag": 'duravan.webp',
+        
+        "President": "Steve Parsons",
+        "Land Name": "Liberal Republic of Duravan",
+        "Independence": "26 August 2024",
+        "Ideology": "Liberalism",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Gulegen",
+        "States": "23",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "LeoDollars",
+        "Resources": "Oil",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "English",
+        "Population": "365 000",
+        "Troops": "234 000",
+        "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
+        
+        "news": {
+            "The Liberal Republic of Duravan declares independence from Leoneury.": "#",
+        }
+    },
+    "coven": {
+        "flag": 'coven.webp',
+        
+        "President": "Garry bulenski",
+        "Land Name": "Coven Socialist Republic",
+        "Independence": "26 August 2024",
+        "Ideology": "Communist",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Buragen",
+        "States": "2",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "Covenium",
+        "Resources": "Uranium",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "Russian, English, Morse",
+        "Population": "200 000",
+        "Troops": "21",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
+        
+        "news": {
+            "The Coven Socialist Republic declares independence from Leoneury.": "#",
+        }
+    },
 }
 
 document.querySelectorAll("path").forEach(function (island) {

@@ -82,6 +82,18 @@
     cursor: pointer;
 }
 
+.coven:hover {
+    fill: #b9543a;
+    stroke: #b9543a;
+    cursor: pointer;
+}
+
+.duravan:hover {
+    fill: #507763;
+    stroke: #507763;
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;
