@@ -84,10 +84,11 @@ var countryData = {
 
         "Main Language": "German",
         "Population": "8.374.820.721 (density of 99/km2)",
-        "Active Troops": "921.634.103",
+        "Active Troops": "32.374.923",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
 
         "news": {
+            "Zeanland kicks Tencent out for evading taxes. Riot Games will be in charge distributing Tencent's game onto Zeanland": "#",
             "Kugae is now held hostage by Liberation PACT": "#",
             "Zeanland bans cinema from disallowing people to bring outside food": "#",
             "Zeanland bans limited account on steam": "#",
