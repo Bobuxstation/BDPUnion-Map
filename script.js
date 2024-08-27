@@ -182,9 +182,9 @@ var countryData = {
         }
     },
     "farrasland": {
-        "flag": 'Farrasland.png',
+        "flag": 'Farrasland new.png',
 
-        "Land Name": "United Farras Emirates",
+        "Land Name": "Emirate of Farras",
         "Independence": "20 june 1880",
         "Ideology": "Sharia",
 
