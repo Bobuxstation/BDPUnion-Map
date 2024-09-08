@@ -200,15 +200,16 @@ var countryData = {
         "spacing3": "spacingElem",
         
         "Main Language": "Arabic",
-        "Population": "256 000 000",
-        "Troops": "6 000 000",
+        "Population": "2 754 500 000",
+        "Troops": "39 295 000",
         "Religion": "Islam (99.9%), Others (0.1%)",
 
         "news": {
+            "Farrasland Launches Major Military and Economic Drive, Aiming to Regain Superpower Status": "#",
             "Farrasland teeters on the brink of civil war as the majority of non-Muslims advocate for the creation of a separate nation.": "#",
             "Farrasland has re-entered the BDP Union following diplomatic efforts to restore peace.": "#",
             "Farrasland's economy has surged, surpassing that of Silatland and the Welan Empire, yet it remains beneath Rafidland's economic prowess.": "#",
-            "Farrasland has shifted its capital from \"Farrus\" to \"Madinat Faras\" upon the completion of the new capital's construction.": "#",
+            "Farrasland has shifted its capital from \"Keren\" to \"Madinat Farus\" upon the completion of the new capital's construction.": "#",
             "Farrasland withdrew from the BDP Union following conflicts.": "#"
         }
     },
