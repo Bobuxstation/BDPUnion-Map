@@ -470,32 +470,32 @@ var countryData = {
         }
     },
     "coven": {
-        "flag": 'coven.webp',
+        "flag": 'West_Welan_Republic.webp',
         
-        "President": "Garry bulenski",
-        "Land Name": "Coven Socialist Republic",
-        "Independence": "26 August 2024",
-        "Ideology": "Communist",
+        "President": "Clément Rousseau",
+        "Land Name": "Republic of New Welan (République du Noveau Welan)",
+        "Independence": "8 September 2024",
+        "Ideology": "Social Democracy",
 
         "spacing1": "spacingElem",
 
-        "Capital City": "Buragen",
+        "Capital City": "Beuragène",
         "States": "2",
 
         "spacing2": "spacingElem",
 
-        "Currency": "Covenium",
+        "Currency": "BU dollar",
         "Resources": "Uranium",
 
         "spacing3": "spacingElem",
         
-        "Main Language": "Russian, English, Morse",
-        "Population": "200 000",
-        "Troops": "21",
-        "Religion": "Atheism (99.9%), Others (0.1%)",
+        "Main Language": "French, English",
+        "Population": "96 000 000",
+        "Troops": "15 000",
+        "Religion": "Islam (60%), Atheism (39%), Others (1%)",
         
         "news": {
-            "The Coven Socialist Republic declares independence from Leoneury.": "#",
+            "The Republic of New Welan declares independence from Coven Socialist Republic.": "#",
         }
     },
 }
