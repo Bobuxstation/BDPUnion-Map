@@ -135,7 +135,7 @@ var countryData = {
         }
     },
     "asatland": {
-        "Information": "Statistics are collected by the Federal Department of Statistics (updated June 2024).",
+        "Information": "Statistics are collected by the Federal Department of Statistics (updated October 2024).",
         "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Federation_of_Asatland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
         "flag": 'asatland.webp',
 
@@ -153,9 +153,8 @@ var countryData = {
 
         "spacing3": "spacingElem",
 
-        "States": "11 (Dahlia, Narvia, Sakal, Adminos, North Asatka, New Kugae, Cottbus, East Coast, Ortakent, Qrodexia, Welan Isles)",
+        "States": "11 (Dahlia, Narvia, Sakal, Adminos, North Asatka, New Kugae, Cottbus, West Coast, Ortakent, Qrodexia, Welan Isles)",
         "Capital City": "Dahlia City",
-        "Megacities": "7 (Dahlia City, BigBurg, Arkarta, Classic town, Farmlands, Farmtopia, Tahm City)",
 
         "spacing4": "spacingElem",
 
