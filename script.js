@@ -153,7 +153,7 @@ var countryData = {
 
         "spacing3": "spacingElem",
 
-        "States": "11 (Dahlia, Narvia, Sakal, Adminos, North Asatka, New Kugae, Cottbus, West Coast, Ortakent, Qrodexia, Welan Isles)",
+        "States": "21",
         "Capital City": "Dahlia City",
 
         "spacing4": "spacingElem",
