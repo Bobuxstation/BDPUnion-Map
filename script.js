@@ -223,6 +223,7 @@ var countryData = {
 
         "spacing1": "spacingElem",
         
+        "States": "61",
         "Capital City": "arkus",
 
         "spacing2": "spacingElem",
@@ -238,6 +239,7 @@ var countryData = {
         "Religion": "Atheism (99.9%), Others (0.1%)",
        
         "news": {
+            "Arkaland Annexes Atherium After Government Collapse in Wake of Nuclear Strike": "#",
             "Arkaland have reduced the legal age of drinking from 21 to 18": "#",
             "Arkaland gdp increased by 3.5% in Q1, we expect it to increase by 3.6% in Q2": "#",
             "Arkaland will take in any atheists and LGBTQ+ refugees from the prosecution going on in Zean land": "#",
@@ -472,7 +474,7 @@ var countryData = {
     "coven": {
         "flag": 'West_Welan_Republic.webp',
         
-        "President": "Clément Rousseau",
+        "President": "Victor Ellard",
         "Land Name": "Republic of New Welan (République du Noveau Welan)",
         "Independence": "8 September 2024",
         "Ideology": "Social Democracy",
