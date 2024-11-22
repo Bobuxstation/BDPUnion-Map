@@ -474,10 +474,10 @@ var countryData = {
     "coven": {
         "flag": 'West_Welan_Republic.webp',
         
-        "President": "Victor Ellard",
+        "President": "Beaufort Rossi",
         "Land Name": "Republic of New Welan (République du Noveau Welan)",
         "Independence": "8 September 2024",
-        "Ideology": "Social Democracy",
+        "Ideology": "Liberalism",
 
         "spacing1": "spacingElem",
 
@@ -498,6 +498,35 @@ var countryData = {
         
         "news": {
             "The Republic of New Welan declares independence from Coven Socialist Republic.": "#",
+        }
+    },
+    "welanstates": {
+        "flag": 'United Welan States.png',
+        
+        "President": "Jordan Abid",
+        "Land Name": "United Welan States (États-Unis du Welan)",
+        "Independence": "21 November 2024",
+        "Ideology": "Liberalism",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Maideau City",
+        "States": "99",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "BU dollar",
+        "Resources": "Uranium",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "French, English",
+        "Population": "19 000 000",
+        "Troops": "15 000",
+        "Religion": "Islam (60%), Atheism (39%), Others (1%)",
+        
+        "news": {
+            "United Welan States declares independence from New Welan.": "#",
         }
     },
 }

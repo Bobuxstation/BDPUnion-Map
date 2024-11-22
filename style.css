@@ -1,96 +1,85 @@
 .rafidland:hover {
-    fill: #fc8e3f;
-    stroke: #fc8e3f;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .nandaland:hover {
-    fill: #2ccf5d;
-    stroke: #2ccf5d;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .zeanland:hover {
-    fill: #ababab;
-    stroke: #ababab;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .silatland:hover {
-    fill: #fec5d8;
-    stroke: #fec5d8;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .asatland:hover {
-    fill: #3e9dfd;
-    stroke: #3e9dfd;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .farrasland:hover {
-    fill: #fff86c;
-    stroke: #fff86c;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .arkaland:hover {
-    fill: #ff3e3e;
-    stroke: #ff3e3e;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .azkaland:hover {
-    fill: #e79747;
-    stroke: #e79747;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .welan:hover {
-    fill: #d25fd2;
-    stroke: #d25fd2;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .domberion:hover {
-    fill: #333333;
-    stroke: #333333;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .newzeanland:hover {
-    fill: #537db4;
-    stroke: #537db4;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .sepia:hover {
-    fill: #57745b;
-    stroke: #57745b;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .leoneury:hover {
-    fill: #c257c2;
-    stroke: #c257c2;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .atherium:hover {
-    fill: #484cd5;
-    stroke: #484cd5;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .coven:hover {
-    fill: #b9543a;
-    stroke: #b9543a;
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
 .duravan:hover {
-    fill: #507763;
-    stroke: #507763;
+    filter: brightness(1.25);
+    cursor: pointer;
+}
+
+.welanstates:hover {
+    filter: brightness(1.25);
     cursor: pointer;
 }
 
