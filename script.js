@@ -529,7 +529,7 @@ var countryData = {
         "flag": 'South Maritimia.png',
         "map": 'THE SOUTH MARITIMIAN ARCHIPELAGO.png',
         
-        "Leader": "King Koning Lambert I",
+        "Leader": "King Lambert I",
         "Prime Minister": "Cristiano Fisch",
         "Land Name": "Kingdom of South Maritimia",
         "Independence": "25 December 2024",
