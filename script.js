@@ -64,11 +64,9 @@ var countryData = {
 
         "spacingwiki": "spacingElem",
 
-        "Land Name": "Zeanland",
-        "Type": "Republic",
+        "Land Name": "United States of Zeanland (Zeanland)",
         "Ideology": "Liberalism",
         "National Anthem": "Meine Land",
-        "Bans": "Smoking, drugs, money laundry",
 
         "spacing1": "spacingElem",
 
@@ -78,14 +76,14 @@ var countryData = {
         "spacing2": "spacingElem",
 
         "Currency": "BU dollar",
-        "Resources": "Barley, Rice, Wheat, Black Pepper, Iron, Copper",
+        "Resources": "Oil, salmon fish, copper, gold, titanium, and advanced technology",
 
         "spacing3": "spacingElem",
 
-        "Main Language": "German",
+        "Main Language": "English",
         "Population": "8.374.820.721 (density of 99/km2)",
         "Active Troops": "32.374.923",
-        "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
+        "Religion": "Islam (97.5%), Christian (2.73%), Buddha (1.52%)",
 
         "news": {
             "Zeanland kicks Tencent out for evading taxes. Riot Games will be in charge distributing Tencent's game onto Zeanland": "#",
@@ -105,14 +103,11 @@ var countryData = {
     },
     "silatland": {
         "flag": 'silatland.svg',
-        "Information": "Silatland is a puppet state (north controlled by Nanda land, south controlled by Arkaland and east controlled by the Federation of Asatland)",
 
-        "spacing1": "spacingElem",
-
-        "Land Name": "People's Republic of Silat (Central Silat Kingdom)",
+        "Land Name": "Central Silat Kingdom",
         "Leader": "King Silat IV",
         "Independence": "4th april 2004",
-        "Ideology": "Communism",
+        "Ideology": "Democracy",
 
         "spacing2": "spacingElem",
         
@@ -293,6 +288,7 @@ var countryData = {
     },
     "sepia": {
         "flag": 'sepia.jpeg',
+        "map": 'sepia-map.png',
 
         "President": "Mohammed Sig Ahmad",
         "Land Name": "The Sigma's Republic of Sepia",
@@ -529,6 +525,37 @@ var countryData = {
             "United Welan States declares independence from New Welan.": "#",
         }
     },
+    "southmaritimia": {
+        "flag": 'South Maritimia.png',
+        "map": 'THE SOUTH MARITIMIAN ARCHIPELAGO.png',
+        
+        "Leader": "King Koning Lambert I",
+        "Prime Minister": "Cristiano Fisch",
+        "Land Name": "Kingdom of South Maritimia",
+        "Independence": "25 December 2024",
+        "Ideology": "Democracy",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Drijvende",
+        "States": "23",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "Muschel-Mark",
+        "Resources": "Fish, Minerals, Natural Gas, Oil",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "Dutch",
+        "Population": "2 710 000",
+        "Troops": "1 000",
+        "Religion": "Atheism (99%), Others/Religious (1%)",
+        
+        "news": {
+            "The Kingdom of South Maritimia declares independence from Zeanland.": "#",
+        }
+    }
 }
 
 document.querySelectorAll("path").forEach(function (island) {
@@ -542,6 +569,7 @@ document.querySelectorAll("path").forEach(function (island) {
 
             if (country.flag === false) {
                 document.getElementById('flag').src = '';
+                document.getElementById('flag').onclick = false
 
                 if (document.getElementById('object')) { document.getElementById('object').remove() };
             } else if (country.flag.includes('svg')) {
@@ -551,11 +579,13 @@ document.querySelectorAll("path").forEach(function (island) {
                 objectelem.type = 'image/svg+xml'
                 objectelem.data = country.flag
                 objectelem.id = 'object'
-                document.getElementById("nationDetails").prepend(objectelem)
+                document.getElementById("imageContainer").prepend(objectelem)
 
                 document.getElementById('flag').src = '';
+                document.getElementById('flag').onclick = false
             } else {
                 document.getElementById('flag').src = country.flag;
+                document.getElementById('flag').onclick = function () {window.open(country.flag)}
 
                 if (document.getElementById('object')) { document.getElementById('object').remove() };
             }
@@ -567,8 +597,17 @@ document.querySelectorAll("path").forEach(function (island) {
                 document.getElementById('newsholder').innerText = ''
             }
 
+            if (country['map']) {
+                document.getElementById('map').style.display = 'block'
+                document.getElementById('map').onclick = function () {window.open(country['map'])}
+                document.getElementById('map').src = country['map']
+            } else {
+                document.getElementById('map').style.display = 'none'
+            }
+
             Object.keys(country).forEach(function (item, i) {
                 if (item == 'flag') return;
+                if (item == 'map') return;
                 if (item == 'news') {
                     Object.keys(country[item]).forEach(function (item, i) {
                         let newscard = document.createElement('div')

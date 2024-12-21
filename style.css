@@ -83,6 +83,11 @@
     cursor: pointer;
 }
 
+.southmaritimia:hover {
+    filter: brightness(1.25);
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -165,10 +170,15 @@ span {
 
 img,
 #object {
-    float: right;
-    width: 20%;
     border-radius: 10px;
     border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+#imageContainer {
+    width: 20%;
+    float: right;
 }
 
 #newsholder {
