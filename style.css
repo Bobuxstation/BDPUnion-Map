@@ -88,6 +88,11 @@
     cursor: pointer;
 }
 
+.eastmaritimia:hover {
+    filter: brightness(1.25);
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;

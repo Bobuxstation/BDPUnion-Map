@@ -517,7 +517,7 @@ var countryData = {
         "spacing3": "spacingElem",
         
         "Main Language": "French, English",
-        "Population": "19 000 000",
+        "Population": "31 000 000",
         "Troops": "15 000",
         "Religion": "Islam (60%), Atheism (39%), Others (1%)",
         
@@ -554,6 +554,36 @@ var countryData = {
         
         "news": {
             "The Kingdom of South Maritimia declares independence from Zeanland.": "#",
+        }
+    },
+    "eastmaritimia": {
+        "flag": 'East Maritimia.png',
+        "map": 'THE EAST MARITIMIAN ARCHIPELAGO.png',
+        
+        "President": "Angela Friedmann",
+        "Land Name": "East Maritimian Republic",
+        "Independence": "1 January 2025",
+        "Ideology": "Democracy",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Dralaffai",
+        "Provinces": "6",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "BU dollar",
+        "Resources": "Fish, Minerals, Natural Gas, Oil",
+
+        "spacing3": "spacingElem",
+        
+        "Main Language": "Romanian",
+        "Population": "8 490 000",
+        "Troops": "1 500",
+        "Religion": "Atheism (99%), Others/Religious (1%)",
+        
+        "news": {
+            "The East Maritimian Republic declares independence from Zeanland.": "#",
         }
     }
 }
