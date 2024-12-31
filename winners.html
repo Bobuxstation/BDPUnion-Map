@@ -87,12 +87,26 @@
             }
         }
 
-        var countries = ["Asatland", "Arkaland", "Nandaland", "Farrasland", "Zeanland", "Leoneury", "Azkaland", "Rafidland", "SR. Sepia", "New Zeanland", "Domberion"]
+        var countries = [
+            "Asatland",
+            "Arkaland",
+            "Nandaland",
+            "Farrasland",
+            "Zeanland",
+            "Azkaland",
+            "Rafidland",
+            "SR. Sepia",
+            "New Zeanland",
+            "Domberion",
+            "New Welan",
+            "United Welan States",
+            "East Maritmia",
+            "West Maritimia"]
         document.getElementById("category").innerText = prompt("Enter category:")
         shuffle(countries)
         shuffle(countries)
         shuffle(countries)
-        
+
         countries.forEach(function (item, index) {
             var medal = ''
             var elemClass = ''
