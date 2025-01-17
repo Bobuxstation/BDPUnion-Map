@@ -111,7 +111,7 @@ var countryData = {
 
         "spacing2": "spacingElem",
         
-        "States": "1",
+        "Provinces": "4",
         "Capital City": "Sakti City",
 
         "spacing3": "spacingElem",
@@ -184,7 +184,7 @@ var countryData = {
 
         "spacing1": "spacingElem",
         
-        "States": "1",
+        "Provinces": "8",
         "Capital City": "مدينة فرس",
 
         "spacing2": "spacingElem",
@@ -299,7 +299,7 @@ var countryData = {
         "spacing1": "spacingElem",
 
         "Capital City": "New Sabinia",
-        "States": "3",
+        "Provinces": "4",
 
         "spacing2": "spacingElem",
         
@@ -361,7 +361,7 @@ var countryData = {
         "spacing1": "spacingElem",
 
         "Capital City": "East Glorreiche",
-        "Provinces": "4",
+        "Provinces": "6",
 
         "spacing2": "spacingElem",
 
