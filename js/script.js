@@ -1,6 +1,6 @@
 var countryData = {
     "rafidland": {
-        "flag": 'rafidland.png',
+        "flag": 'assets/rafidland.png',
 
         "President": "Rafid",
         "Land Name": "Rafid land",
@@ -31,7 +31,7 @@ var countryData = {
         }
     },
     "nandaland": {
-        "flag": "nandaland.svg",
+        "flag": "assets/nandaland.svg",
 
         "Land Name": "Nanda land",
         "Independence": "25 May 1863",
@@ -59,7 +59,7 @@ var countryData = {
         }
     },
     "zeanland": {
-        "flag": "zeanland.webp",
+        "flag": "assets/zeanland.webp",
         "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Zeanland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
 
         "spacingwiki": "spacingElem",
@@ -102,7 +102,7 @@ var countryData = {
         }
     },
     "silatland": {
-        "flag": 'silatland.svg',
+        "flag": 'assets/silatland.svg',
 
         "Land Name": "Central Silat Kingdom",
         "Leader": "King Silat IV",
@@ -132,7 +132,7 @@ var countryData = {
     "asatland": {
         "Information": "Statistics are collected by the Federal Department of Statistics (updated October 2024).",
         "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Federation_of_Asatland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
-        "flag": 'asatland.webp',
+        "flag": 'assets/asatland.webp',
 
         "spacing1": "spacingElem",
 
@@ -176,7 +176,7 @@ var countryData = {
         }
     },
     "farrasland": {
-        "flag": 'Farrasland new.png',
+        "flag": 'assets/Farrasland new.png',
 
         "Land Name": "Emirate of Farras",
         "Independence": "20 june 1880",
@@ -208,7 +208,7 @@ var countryData = {
         }
     },
     "arkaland": {
-        "flag": "Arkaland_Flag_Peace.webp",
+        "flag": "assets/Arkaland_Flag_Peace.webp",
 
         "Land Name": "Arkaland",
         "President": "arka",
@@ -246,7 +246,7 @@ var countryData = {
         }
     },
     "azkaland": {
-        "flag": 'azkaland.svg',
+        "flag": 'assets/azkaland.svg',
         "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Azkaland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
 
         "spacingwiki": "spacingElem",
@@ -287,8 +287,8 @@ var countryData = {
         }
     },
     "sepia": {
-        "flag": 'sepia.jpeg',
-        "map": 'sepia-map.png',
+        "flag": 'assets/sepia.jpeg',
+        "map": 'assets/sepia-map.png',
 
         "President": "Mohammed Sig Ahmad",
         "Land Name": "The Sigma's Republic of Sepia",
@@ -319,13 +319,13 @@ var countryData = {
         }
     },
     "leoneury": {
-        "flag": 'leoneury.webp',
+        "flag": 'assets/leoneury.webp',
 
         "President": "Elfarol",
         "Land Name": "Republic of Leoneury",
         "Ideology": "liberalism",
         "Main Animal": "Fatehur (emu like bird)",
-        "Independence": "21 june 2024",
+        "Independence": "18 January 2025",
 
         "spacing1": "spacingElem",
         
@@ -344,11 +344,12 @@ var countryData = {
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
         
         "news": {
+            "The republic of Leoneury declares independence from the Tuah republic.": "#",
             "BDP Union welcomes The Republic of Leoneury with open hands.": "#"
         }
     },
     "newzeanland": {
-        "flag": 'Neuzeanland.png',
+        "flag": 'assets/Neuzeanland.png',
         "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/New_Zeanland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
 
         "spacingwiki": "spacingElem",
@@ -381,11 +382,11 @@ var countryData = {
         }
     },
     "maritimia": {
-        "flag": 'ROM.png',
+        "flag": 'assets/ROM.png',
 
         "President": "Hans Fisch",
         "Land Name": "Republic of Maritimia",
-        "Independence": "23 july 2024",
+        "Independence": "18 January 2025",
         "Ideology": "Social Democracy",
 
         "spacing1": "spacingElem",
@@ -401,16 +402,16 @@ var countryData = {
         "spacing3": "spacingElem",
         
         "Main Language": "German",
-        "Population": "1 000 000 000",
-        "Troops": "100 000 000 Prepared",
+        "Population": "761 000 000",
+        "Troops": "12 000  Prepared",
         "Religion": "Atheism (99.9%), Others (0.1%)",
         
         "news": {
-            "The Republic of Maritimia declares independence after the Glorreiche coup.": "#"
+            "The Republic of Maritimia declares independence from the Tuah republic.": "#"
         }
     },
     "atherium": {
-        "flag": 'Atherium.webp',
+        "flag": 'assets/Atherium.webp',
         
         "President": "Alar Lucian",
         "Land Name": "Atherium Republic",
@@ -439,7 +440,7 @@ var countryData = {
         }
     },
     "duravan": {
-        "flag": 'duravan.webp',
+        "flag": 'assets/duravan.webp',
         
         "President": "Steve Parsons",
         "Land Name": "Liberal Republic of Duravan",
@@ -468,7 +469,7 @@ var countryData = {
         }
     },
     "coven": {
-        "flag": 'West_Welan_Republic.webp',
+        "flag": 'assets/West_Welan_Republic.webp',
         
         "President": "Beaufort Rossi",
         "Land Name": "Republic of New Welan (République du Noveau Welan)",
@@ -497,7 +498,7 @@ var countryData = {
         }
     },
     "welanstates": {
-        "flag": 'United Welan States.png',
+        "flag": 'assets/United Welan States.png',
         
         "President": "Jordan Abid",
         "Land Name": "United Welan States (États-Unis du Welan)",
@@ -526,8 +527,8 @@ var countryData = {
         }
     },
     "southmaritimia": {
-        "flag": 'South Maritimia.png',
-        "map": 'THE SOUTH MARITIMIAN ARCHIPELAGO.png',
+        "flag": 'assets/South Maritimia.png',
+        "map": 'assets/THE SOUTH MARITIMIAN ARCHIPELAGO.png',
         
         "Leader": "King Lambert I",
         "Prime Minister": "Cristiano Fisch",
@@ -557,8 +558,8 @@ var countryData = {
         }
     },
     "eastmaritimia": {
-        "flag": 'East Maritimia.png',
-        "map": 'THE EAST MARITIMIAN ARCHIPELAGO.png',
+        "flag": 'assets/East Maritimia.png',
+        "map": 'assets/THE EAST MARITIMIAN ARCHIPELAGO.png',
         
         "President": "Angela Friedmann",
         "Land Name": "East Maritimian Republic",
@@ -584,6 +585,36 @@ var countryData = {
         
         "news": {
             "The East Maritimian Republic declares independence from Zeanland.": "#",
+        }
+    },
+    "tuah": {
+        "flag": 'assets/Tuah republic.png',
+        
+        "King": "Mika",
+        "Prime Minister": "Welsch Hailey",
+        "Land Name": "Tuah Republic (Zeanland)",
+        "Independence": "18 January 2025",
+        "Ideology": "Democracy",
+
+        "spacing1": "spacingElem",
+
+        "Capital City": "Glorreiche",
+        "Provinces": "12",
+
+        "spacing2": "spacingElem",
+
+        "Currency": "BU dollar",
+        "Resources": "Oil, salmon fish, copper, gold, titanium, and advanced technology",
+
+        "spacing3": "spacingElem",
+
+        "Main Language": "English",
+        "Population": "8.374.820.721 (density of 99/km2)",
+        "Active Troops": "32.374.923",
+        "Religion": "Islam (97.5%), Christian (2.73%), Buddha (1.52%)",
+        
+        "news": {
+            "The Tuah republic has siezed power after the collapse of Zeanland.": "#",
         }
     }
 }
