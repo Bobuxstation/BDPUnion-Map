@@ -303,7 +303,7 @@ var countryData = {
 
         "spacing2": "spacingElem",
         
-        "Currency": "Diamond ML",
+        "Currency": "Sepian Demules",
         "Resources": "Infinity stone, Nokium",
         "Exports": "GTA 6, AB Games",
 
