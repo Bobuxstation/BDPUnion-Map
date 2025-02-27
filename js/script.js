@@ -609,7 +609,7 @@ var countryData = {
         "spacing3": "spacingElem",
 
         "Main Language": "English",
-        "Population": "8.374.820.721 (density of 99/km2)",
+        "Population": "786.820.721 (density of 99/km2)",
         "Active Troops": "32.374.923",
         "Religion": "Islam (97.5%), Christian (2.73%), Buddha (1.52%)",
         
