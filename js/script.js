@@ -616,6 +616,34 @@ var countryData = {
         "news": {
             "The Tuah republic has siezed power after the collapse of Zeanland.": "#",
         }
+    },
+    "mansoura": {
+        "flag": 'assets/Mansoura.png',
+
+        "Land Name": "Mansoura States",
+        "Leader": "Ahmed Al-Wali",
+        "Independence": "1st March 2025",
+        "Ideology": "Democracy",
+
+        "spacing2": "spacingElem",
+        
+        "States": "4",
+        "Capital City": "Al-Ashra",
+
+        "spacing3": "spacingElem",
+        
+        "Currency": "BU dollar",
+        
+        "spacing4": "spacingElem",
+
+        "Main Language": "German",
+        "Population": "2 193 841 021",
+        "Troops": "30 000 000",
+        "Religion": "Islam (39%), Buddha (42%), Christian (18%), Others (1%)",
+
+        "news": {
+            "The Mansoura States has declared independence from the Tuah republic.": "#"
+        }
     }
 }
 
