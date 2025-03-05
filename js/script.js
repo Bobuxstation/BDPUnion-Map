@@ -344,7 +344,7 @@ var countryData = {
         "President": "Hans Fisch",
         "Land Name": "Republic of Maritimia",
         "Independence": "18 January 2025",
-        "Ideology": "Social Democracy",
+        "Ideology": "Democracy",
 
         "spacing1": "spacingElem",
 
@@ -361,7 +361,7 @@ var countryData = {
         "Main Language": "German",
         "Population": "761 000 000",
         "Troops": "12 000  Prepared",
-        "Religion": "Atheism (99.9%), Others (0.1%)",
+        "Religion": "Islam (87%), Atheism (13%)",
         
         "news": {
             "The Republic of Maritimia declares independence from the Tuah republic.": "#"
