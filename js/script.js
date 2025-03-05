@@ -342,6 +342,7 @@ var countryData = {
         "flag": 'assets/ROM.png',
 
         "President": "Hans Fisch",
+        "Prime Minister": "Zean Fender",
         "Land Name": "Republic of Maritimia",
         "Independence": "18 January 2025",
         "Ideology": "Democracy",
