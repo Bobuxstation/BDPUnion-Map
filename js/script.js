@@ -58,49 +58,6 @@ var countryData = {
             "Nandaland has successfully invaded Silatland with Arkaland, dividing it into North and South Silatland.": "#"
         }
     },
-    "zeanland": {
-        "flag": "assets/zeanland.webp",
-        "Wiki Page": `<a href='https://bdp-union.fandom.com/wiki/Zeanland' target="_"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open</a>`,
-
-        "spacingwiki": "spacingElem",
-
-        "Land Name": "United States of Zeanland (Zeanland)",
-        "Ideology": "Liberalism",
-        "National Anthem": "Meine Land",
-
-        "spacing1": "spacingElem",
-
-        "States": "15",
-        "Capital City": "Glorreiche",
-
-        "spacing2": "spacingElem",
-
-        "Currency": "BU dollar",
-        "Resources": "Oil, salmon fish, copper, gold, titanium, and advanced technology",
-
-        "spacing3": "spacingElem",
-
-        "Main Language": "English",
-        "Population": "8.374.820.721 (density of 99/km2)",
-        "Active Troops": "32.374.923",
-        "Religion": "Islam (97.5%), Christian (2.73%), Buddha (1.52%)",
-
-        "news": {
-            "Zeanland kicks Tencent out for evading taxes. Riot Games will be in charge distributing Tencent's game onto Zeanland": "#",
-            "Kugae is now held hostage by Liberation PACT": "#",
-            "Zeanland bans cinema from disallowing people to bring outside food": "#",
-            "Zeanland bans limited account on steam": "#",
-            "Conventions or exhibitions in zeanland are no longer allowed to have a ticket to enter": "#",
-            "Zeanland re-bans crossplaying again": "#",
-            "Zeanland goverment of social media has banned the clown emoji due to cyber bullying": "#",
-            "In zeanland, all apple products that contain lightning port must be changed to usb c": "#",
-            "Zeanland has now banned any means of spicy because citizens have protested": "#",
-            "In zeanland, kigurumi mask studios are forced to deflate their prices": "#",
-            "Zeanland now bans nitro due to unfairness": "#",
-            "Zeanland has now launched the first cosplayer in space": "#",
-            "Crossword puzzles are banned due to citizen's hatery over crossword puzzles": "#",
-        }
-    },
     "silatland": {
         "flag": 'assets/silatland.svg',
 
@@ -410,64 +367,6 @@ var countryData = {
             "The Republic of Maritimia declares independence from the Tuah republic.": "#"
         }
     },
-    "atherium": {
-        "flag": 'assets/Atherium.webp',
-        
-        "President": "Alar Lucian",
-        "Land Name": "Atherium Republic",
-        "Independence": "6 August 2024",
-        "Ideology": "Liberalism",
-
-        "spacing1": "spacingElem",
-
-        "Capital City": "Cecilia",
-        "States": "2",
-
-        "spacing2": "spacingElem",
-
-        "Currency": "Cypto Currency",
-        "Resources": "Water, Agricultural Land, Marble, Limestone, and Quartz",
-
-        "spacing3": "spacingElem",
-        
-        "Main Language": "Latin & Arabic",
-        "Population": "34 000 000",
-        "Troops": "390 000",
-        "Religion": "Atheism (68%), Others/Religious (32%)",
-        
-        "news": {
-            "Atherium declares independence from Farrasland.": "#",
-        }
-    },
-    "duravan": {
-        "flag": 'assets/duravan.webp',
-        
-        "President": "Steve Parsons",
-        "Land Name": "Liberal Republic of Duravan",
-        "Independence": "26 August 2024",
-        "Ideology": "Liberalism",
-
-        "spacing1": "spacingElem",
-
-        "Capital City": "Gulegen",
-        "States": "23",
-
-        "spacing2": "spacingElem",
-
-        "Currency": "LeoDollars",
-        "Resources": "Oil",
-
-        "spacing3": "spacingElem",
-        
-        "Main Language": "English",
-        "Population": "365 000",
-        "Troops": "234 000",
-        "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
-        
-        "news": {
-            "The Liberal Republic of Duravan declares independence from Leoneury.": "#",
-        }
-    },
     "coven": {
         "flag": 'assets/West_Welan_Republic.webp',
         
@@ -615,34 +514,6 @@ var countryData = {
         
         "news": {
             "The Tuah republic has siezed power after the collapse of Zeanland.": "#",
-        }
-    },
-    "mansoura": {
-        "flag": 'assets/Mansoura.png',
-
-        "Land Name": "Mansoura States",
-        "Leader": "Ahmed Al-Wali",
-        "Independence": "1st March 2025",
-        "Ideology": "Democracy",
-
-        "spacing2": "spacingElem",
-        
-        "States": "4",
-        "Capital City": "Al-Ashra",
-
-        "spacing3": "spacingElem",
-        
-        "Currency": "BU dollar",
-        
-        "spacing4": "spacingElem",
-
-        "Main Language": "English",
-        "Population": "2 193 841 021",
-        "Troops": "30 000 000",
-        "Religion": "Islam (39%), Buddha (42%), Christian (18%), Others (1%)",
-
-        "news": {
-            "The Mansoura States has declared independence from the Tuah republic.": "#"
         }
     }
 }
