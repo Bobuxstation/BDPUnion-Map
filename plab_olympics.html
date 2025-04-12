@@ -77,58 +77,50 @@
         </h1>
     </div>
     <script>
-        function shuffle(array) {
-            let currentIndex = array.length;
-            while (currentIndex != 0) {
-                let randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex--;
-                [array[currentIndex], array[randomIndex]] = [
-                    array[randomIndex], array[currentIndex]];
+        async function app() {
+            function shuffle(array) {
+                let currentIndex = array.length;
+                while (currentIndex != 0) {
+                    let randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex--;
+                    [array[currentIndex], array[randomIndex]] = [
+                        array[randomIndex], array[currentIndex]];
+                }
             }
+
+            var get = await fetch('nations.json')
+            var data = await get.json()
+            var countries = Object.keys(data)
+
+            document.getElementById("category").innerText = prompt("Enter category:")
+            shuffle(countries)
+            shuffle(countries)
+            shuffle(countries)
+
+            countries.forEach(function (item, index) {
+                var medal = ''
+                var elemClass = ''
+                if (index == 0) {
+                    medal = "🥇 "
+                    elemClass = "first"
+                } else if (index == 1) {
+                    medal = "🥈 "
+                    elemClass = "second"
+                } else if (index == 2) {
+                    medal = "🥉 "
+                    elemClass = "third"
+                } else {
+                    medal = "🏅 "//(index + 1) + ". "
+                    elemClass = "others"
+                }
+
+                var element = document.createElement('p')
+                element.innerText = medal + data[item]["Land Name"]
+                element.className = elemClass
+                document.getElementById("winners").appendChild(element)
+            })
         }
-
-        var countries = [
-            "Asatland",
-            "Arkaland",
-            "Nandaland",
-            "Farrasland",
-            "Zeanland",
-            "Azkaland",
-            "Rafidland",
-            "SR. Sepia",
-            "New Zeanland",
-            "Domberion",
-            "New Welan",
-            "United Welan States",
-            "South Maritmia",
-            "East Maritimia"]
-        document.getElementById("category").innerText = prompt("Enter category:")
-        shuffle(countries)
-        shuffle(countries)
-        shuffle(countries)
-
-        countries.forEach(function (item, index) {
-            var medal = ''
-            var elemClass = ''
-            if (index == 0) {
-                medal = "🥇 "
-                elemClass = "first"
-            } else if (index == 1) {
-                medal = "🥈 "
-                elemClass = "second"
-            } else if (index == 2) {
-                medal = "🥉 "
-                elemClass = "third"
-            } else {
-                medal = "🏅 "//(index + 1) + ". "
-                elemClass = "others"
-            }
-
-            var element = document.createElement('p')
-            element.innerText = medal + item
-            element.className = elemClass
-            document.getElementById("winners").appendChild(element)
-        })
+        app()
     </script>
 </body>
 
