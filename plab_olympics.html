@@ -88,7 +88,7 @@
                 }
             }
 
-            var get = await fetch('nations.json')
+            var get = await fetch('nations.json', {cache: "no-store"})
             var data = await get.json()
             var countries = Object.keys(data)
 
