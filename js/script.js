@@ -1,5 +1,5 @@
 async function setNations() {
-    const response = await fetch('nations.json')
+    const response = await fetch('nations.json', {cache: "no-store"})
     const countryData = await response.json()
     const tipsyData = {
         arrowWidth: 10,
