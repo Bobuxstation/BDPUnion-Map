@@ -81,7 +81,7 @@
         "Main Languages": "English and Narvian-Sakal",
         "Population": "10,246,500,000 (Population density of 45/km2)",
         "Religion": "Islam (72%), Christianity (13%), Atheism (10%), Judaism (5%)",
-        "Troops": "56M Prepared, 50.9M Backup & 260K raw trained",
+        "Troops": "42M Active, 64.9M Reserved",
         "news": {
             "Asatland has enacted a new policy to bolster its economy by requiring foreign countries to build factories within its borders instead of buying raw resources directly.": "#",
             "This morning, Central Dahlia City launched its first tram network to tackle traffic issues and promote public transportation. It's free to use and runs twice as fast as sprinting.": "#",
@@ -405,6 +405,28 @@
         "Religion": "Islam (97.5%), Christian (2.73%), Buddha (1.52%)",
         "news": {
             "The Tuah Province, a dominion of Azkaland has siezed power after the collapse of Zeanland.": "#"
+        }
+    },
+    "hypria": {
+        "flag": "assets/Hypria.png",
+        "King": "Graduation Bear",
+        "Prime Minister": "Kanye west's evil twin",
+        "Land Name": "United Land of Hypria",
+        "Independence": "20th May 2025",
+        "Ideology": "Monarchy",
+        "spacing1": "spacingElem",
+        "Capital City": "City 17",
+        "States": "5",
+        "spacing2": "spacingElem",
+        "Currency": "HPC",
+        "Resources": "Gold, Oil, Tungsten, Emerald, Zinc.",
+        "spacing3": "spacingElem",
+        "Main Language": "English, Toki Pona",
+        "Population": "320.868.354",
+        "Active Troops": "50.467.268 (HADCF)",
+        "Religion": "Christian(10.67%), Jewish(80%), Atheism(9.33%)",
+        "news": {
+            "The United Land of Hypria declares independence from Azkaland.": "#"
         }
     }
 }
