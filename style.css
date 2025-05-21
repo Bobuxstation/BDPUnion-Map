@@ -17,7 +17,7 @@ body {
     place-content: center;
     justify-items: center;
     place-items: center;
-    height: 100vh;
+    height: 100dvh;
     background: lightgray;
     background-size: 40px 40px;
 }
@@ -44,7 +44,7 @@ svg {
     -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.75);
     border: #4d4d4d solid 1px;
-    height: calc(100vh);
+    height: calc(100dvh);
     overflow: auto;
     animation-name: zoomIn;
     animation-duration: 0.25s;
