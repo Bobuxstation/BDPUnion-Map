@@ -59,6 +59,11 @@
             background: linear-gradient(90deg, rgba(205, 127, 50, 1) 12%, rgba(45, 45, 45, 0) 100%);
         }
 
+        .others {
+            font-size: 10px;
+            padding: 10px 10px 0px 15px !important;
+        }
+
         #winners h1 {
             float: right;
             text-align: right;
@@ -115,7 +120,7 @@
                 }
 
                 var element = document.createElement('p')
-                element.innerText = medal + data[item]["Land Name"]
+                element.innerText = medal + data[item]["Country Name"]
                 element.className = elemClass
                 document.getElementById("winners").appendChild(element)
             })

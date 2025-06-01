@@ -2,7 +2,7 @@
     "rafidland": {
         "flag": "assets/rafidland.png",
         "President": "Rafid",
-        "Land Name": "Rafid land",
+        "Country Name": "Rafid land",
         "Independence date": "9 September 1999",
         "Ideology": "liberalism",
         "Main Animal": "cat",
@@ -14,7 +14,7 @@
         "Capital City": "Rafidus",
         "spacing3": "spacingElem",
         "Main Language": "English",
-        "Population": "99.607.953",
+        "Population": "1.799.607.953",
         "Troops": "991.960",
         "Religion": "hindu (60%), muslim (40%)",
         "news": {
@@ -24,7 +24,7 @@
     },
     "nandaland": {
         "flag": "assets/nandaland.svg",
-        "Land Name": "Nanda land",
+        "Country Name": "Nanda land",
         "Independence": "25 May 1863",
         "Ideology": "democracy",
         "spacing1": "spacingElem",
@@ -44,7 +44,7 @@
     },
     "silatland": {
         "flag": "assets/silatland.svg",
-        "Land Name": "Central Silat Kingdom",
+        "Country Name": "Central Silat Kingdom",
         "Leader": "King Silat IV",
         "Independence": "4th april 2004",
         "Ideology": "Democracy",
@@ -67,7 +67,7 @@
         "Wiki Page": "<a href='https://bdp-union.fandom.com/wiki/Federation_of_Asatland' target='_'><i class='fa-solid fa-arrow-up-right-from-square'></i> Open</a>",
         "flag": "assets/asatland.webp",
         "spacing1": "spacingElem",
-        "Land Name": "Federation of Asatland",
+        "Country Name": "Federation of Asatland",
         "President": "Asat",
         "Independence date": "6 September 1869",
         "Ideology": "liberal democracy",
@@ -101,7 +101,7 @@
     },
     "farrasland": {
         "flag": "assets/Farrasland new.png",
-        "Land Name": "Emirate of Farras",
+        "Country Name": "Emirate of Farras",
         "Independence": "20 june 1880",
         "Ideology": "Sharia",
         "spacing1": "spacingElem",
@@ -125,7 +125,7 @@
     },
     "arkaland": {
         "flag": "assets/Arkaland_Flag_Peace.webp",
-        "Land Name": "Arkaland",
+        "Country Name": "Arkaland",
         "President": "arka",
         "Independence": "28 September 1715",
         "Ideology": "social democracy",
@@ -157,7 +157,7 @@
         "flag": "assets/azkaland.svg",
         "Wiki Page": "<a href='https://bdp-union.fandom.com/wiki/Azkaland' target='_'><i class='fa-solid fa-arrow-up-right-from-square'></i> Open</a>",
         "spacingwiki": "spacingElem",
-        "Land Name": "Kingdom of Azka (Azkaland)",
+        "Country Name": "Kingdom of Azka (Azkaland)",
         "Independence": "1 april 2024",
         "Ideology": "Monarchism",
         "spacing1": "spacingElem",
@@ -179,7 +179,7 @@
     },
     "domberion": {
         "flag": "",
-        "Land Name": "Domberion",
+        "Country Name": "Domberion",
         "Information": "The approval of Domberion into the BDP Union is still pending.",
         "news": {
             "BDP Union welcomes Domberion with open hands.": "#"
@@ -189,7 +189,7 @@
         "flag": "assets/sepia.jpeg",
         "map": "assets/sepia-map.png",
         "President": "Mohammed Sig Ahmad",
-        "Land Name": "The Sigma's Republic of Sepia",
+        "Country Name": "The Sigma's Republic of Sepia",
         "Independence": "10 may 2024",
         "Ideology": "Total Sigmanism",
         "Main Animal": "Sepian Manatee",
@@ -212,7 +212,7 @@
     "leoneury": {
         "flag": "assets/leoneury.webp",
         "President": "Elfarol",
-        "Land Name": "Republic of Leoneury",
+        "Country Name": "Republic of Leoneury",
         "Ideology": "liberalism",
         "Main Animal": "Fatehur (emu like bird)",
         "Independence": "18 January 2025",
@@ -232,11 +232,11 @@
         }
     },
     "newzeanland": {
-        "flag": "assets/Neuzeanland.png",
+        "flag": "assets/newmaritimia.png",
         "Wiki Page": "<a href='https://bdp-union.fandom.com/wiki/New_Zeanland' target='_'><i class='fa-solid fa-arrow-up-right-from-square'></i> Open</a>",
         "spacingwiki": "spacingElem",
         "President": "Dean Bender",
-        "Land Name": "New Zeanland",
+        "Country Name": "New Maritimia (Formerly New Zeanland)",
         "Independence": "11 may 2024",
         "Ideology": "Liberalism",
         "spacing1": "spacingElem",
@@ -251,6 +251,7 @@
         "Troops": "100 000 Prepared",
         "Religion": "Feanism (35%), Deanism (64.9%), Others (0.1%)",
         "news": {
+            "Parliament Approves Renaming of Nation to 'New Maritimia', Effective on 1st July.": "#",
             "New Zeanland moves its capital to east Glorreiche after the successful 2024 Zeanland coup.": "#",
             "New Zeanland declares independence after the liberation pact war.": "#"
         }
@@ -258,7 +259,7 @@
     "westwelan": {
         "flag": "assets/West_Welan_Republic.webp",
         "President": "Beaufort Rossi",
-        "Land Name": "Republic of New Welan (République du Noveau Welan)",
+        "Country Name": "Republic of New Welan (République du Noveau Welan)",
         "Independence": "8 September 2024",
         "Ideology": "Liberalism",
         "spacing1": "spacingElem",
@@ -279,7 +280,7 @@
     "welanstates": {
         "flag": "assets/United Welan States.png",
         "President": "Jordan Abid",
-        "Land Name": "United Welan States (États-Unis du Welan)",
+        "Country Name": "United Welan States (États-Unis du Welan)",
         "Independence": "21 November 2024",
         "Ideology": "Liberalism",
         "spacing1": "spacingElem",
@@ -301,7 +302,7 @@
         "flag": "assets/ROM.png",
         "President": "Hans Fisch",
         "Prime Minister": "Zean Fender",
-        "Land Name": "Republic of Maritimia",
+        "Country Name": "Republic of Maritimia",
         "Independence": "18 January 2025",
         "Ideology": "Democracy",
         "spacing1": "spacingElem",
@@ -324,7 +325,7 @@
         "map": "assets/THE SOUTH MARITIMIAN ARCHIPELAGO.png",
         "Leader": "King Lambert I",
         "Prime Minister": "Cristiano Fisch",
-        "Land Name": "Kingdom of South Maritimia",
+        "Country Name": "Kingdom of South Maritimia",
         "Independence": "25 December 2024",
         "Ideology": "Monarchism",
         "spacing1": "spacingElem",
@@ -346,7 +347,7 @@
         "flag": "assets/East Maritimia.png",
         "map": "assets/THE EAST MARITIMIAN ARCHIPELAGO.png",
         "President": "Angela Friedmann",
-        "Land Name": "East Maritimian Republic",
+        "Country Name": "East Maritimian Republic",
         "Independence": "1 January 2025",
         "Ideology": "Democracy",
         "spacing1": "spacingElem",
@@ -367,7 +368,7 @@
     "westmaritimia": {
         "flag": "assets/West Maritimia.png",
         "President": "Mohan Ronaldo Jésus",
-        "Land Name": "Republic of West Maritimia",
+        "Country Name": "Republic of West Maritimia",
         "Independence": "12 April 2025",
         "Ideology": "Democracy",
         "spacing1": "spacingElem",
@@ -389,7 +390,7 @@
         "flag": "assets/Tuah republic.png",
         "King": "Mika",
         "Prime Minister": "Welsch Hailey",
-        "Land Name": "Province of Tuah",
+        "Country Name": "Province of Tuah",
         "Independence": "18 January 2025",
         "Ideology": "Democracy",
         "spacing1": "spacingElem",
@@ -411,7 +412,7 @@
         "flag": "assets/Hypria.jpeg",
         "King": "Graduation Bear",
         "Prime Minister": "Kanye west's evil twin",
-        "Land Name": "United Land of Hypria",
+        "Country Name": "United Land of Hypria",
         "Independence": "20th May 2025",
         "Ideology": "Monarchy",
         "spacing1": "spacingElem",
@@ -424,7 +425,7 @@
         "Main Language": "English, Toki Pona",
         "Population": "320.868.354",
         "Active Troops": "50.467.268 (HADCF)",
-        "Religion": "Christian(10.67%), Jewish(80%), Atheism(9.33%)",
+        "Religion": "Jewish(80%), Christian(10.67%), Atheism(9.33%)",
         "news": {
             "The United Land of Hypria declares independence from Azkaland.": "#"
         }

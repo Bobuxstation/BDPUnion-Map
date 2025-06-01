@@ -16,7 +16,7 @@ async function setNations() {
     document.querySelectorAll("path").forEach(function (island) {
         if (countryData[island.className.baseVal]) {
             var islandClass = island.className.baseVal;
-            island.setAttribute("title", countryData[island.className.baseVal]['Land Name'])
+            island.setAttribute("title", countryData[island.className.baseVal]['Country Name'])
             island.setAttribute("class", "hoverable")
 
             island.onclick = function () {
@@ -46,7 +46,7 @@ async function setNations() {
 
                     if (document.getElementById('object')) { document.getElementById('object').remove() };
                 }
-                document.getElementById("countryName").innerHTML = '<a onclick="this.parentNode.parentNode.style.display = `none`" style="float: right;display: flex;justify-content: center;place-items: center;height: 32px;"><i class="fa-solid fa-xmark"></i></a>' + country['Land Name'];
+                document.getElementById("countryName").innerHTML = '<a onclick="this.parentNode.parentNode.style.display = `none`" style="float: right;display: flex;justify-content: center;place-items: center;height: 32px;"><i class="fa-solid fa-xmark"></i></a>' + country['Country Name'];
 
                 if (!country['news']) {
                     document.getElementById('newsholder').innerText = 'No news availible!'
