@@ -65,6 +65,7 @@ async function setNations() {
                 Object.keys(country).forEach(function (item, i) {
                     if (item == 'flag') return;
                     if (item == 'map') return;
+                    if (item == 'FullBUMember') return;
                     if (item == 'news') {
                         Object.keys(country[item]).forEach(function (item, i) {
                             let newscard = document.createElement('div')
