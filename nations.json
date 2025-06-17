@@ -17,7 +17,7 @@
         "Population": "1.799.607.953",
         "Troops": "991.960",
         "Religion": "hindu (60%), muslim (40%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Rafid Land has relocated its cities underground, using the surface structures as decoys to detect potential nuclear threats, while ensuring the safety of all citizens residing in the subterranean cities.": "#",
             "Rafid Land has commenced the construction of underground/undersea highways, linking it with the central continent via Zeanland.": "#"
@@ -39,7 +39,7 @@
         "Population": "3 694 000 000 (Population density of 20/km2)",
         "Troops": "10 550 000",
         "Religion": "Atheism (99.9%), Others (0.1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Nandaland has successfully invaded Silatland with Arkaland, dividing it into North and South Silatland.": "#"
         }
@@ -60,7 +60,7 @@
         "Population": "50 000 000",
         "Troops": "10 000 000",
         "Religion": "Atheism (70%) hindu/buddha (30%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Silat Land has inaugurated its first nuclear power plant, a development with potential implications. The concern arises over the possibility of nuclear weapon acquisition.": "#"
         }
@@ -85,7 +85,7 @@
         "Population": "10,246,500,000 (Population density of 45/km2)",
         "Religion": "Islam (72%), Christianity (13%), Atheism (10%), Judaism (5%)",
         "Troops": "42M Active, 64.9M Reserved",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Asatland has enacted a new policy to bolster its economy by requiring foreign countries to build factories within its borders instead of buying raw resources directly.": "#",
             "This morning, Central Dahlia City launched its first tram network to tackle traffic issues and promote public transportation. It's free to use and runs twice as fast as sprinting.": "#",
@@ -118,7 +118,7 @@
         "Population": "2 754 500 000",
         "Troops": "39 295 000",
         "Religion": "Islam (99.9%), Others (0.1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Farrasland Launches Major Military and Economic Drive, Aiming to Regain Superpower Status": "#",
             "Farrasland teeters on the brink of civil war as the majority of non-Muslims advocate for the creation of a separate nation.": "#",
@@ -146,7 +146,7 @@
         "Population": "9.79 bil (population density of 35/km²)",
         "Troops": "30.0m active 12.0m reserve",
         "Religion": "Atheism (99.9%), Others (0.1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Arkaland Annexes Atherium After Government Collapse in Wake of Nuclear Strike": "#",
             "Arkaland have reduced the legal age of drinking from 21 to 18": "#",
@@ -177,7 +177,7 @@
         "Population": "500 million",
         "Troops": "9 million highly trained, 50 mil raw trained",
         "Religion": "Atheism (96%), Islam (3%), Others (1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Azkaland has asserted its independence, staking claim to southern Zeanland and the unclaimed Fire Isles as its sovereign territory.": "#",
             "Government of azkaland accounces that it will not use BU$ as currency due to the citizens having suspicions about foreign interference": "#",
@@ -188,7 +188,7 @@
         "flag": "",
         "Country Name": "Domberion",
         "Information": "The approval of Domberion into the BDP Union is still pending.",
-        "FullBUMember": false,
+        "FullBUMember": "false",
         "news": {
             "BDP Union welcomes Domberion with open hands.": "#"
         }
@@ -214,7 +214,7 @@
         "Population": "460 000 000",
         "Troops": "20 000 000",
         "Religion": "Islam (79.8%), Hinduism (15.2%), Buddhism (2.3%), Local Paganism (1.4%), Catholic (1.3%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "BDP Union welcomes The Sigma's Republic of Sepia with open hands.": "#"
         }
@@ -236,7 +236,7 @@
         "Population": "78 000 000",
         "Troops": "10 000 000",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The republic of Leoneury declares independence from the Tuah republic.": "#",
             "BDP Union welcomes The Republic of Leoneury with open hands.": "#"
@@ -261,7 +261,7 @@
         "Population": "2 410 000 000 (Population density of 100/km2)",
         "Troops": "100 000 Prepared",
         "Religion": "Feanism (35%), Deanism (64.9%), Others (0.1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "Parliament Approves Renaming of Nation to 'New Maritimia', Effective on 1st July.": "#",
             "New Zeanland moves its capital to east Glorreiche after the successful 2024 Zeanland coup.": "#",
@@ -286,7 +286,7 @@
         "Population": "96 000 000",
         "Troops": "15 000",
         "Religion": "Islam (60%), Atheism (39%), Others (1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The Republic of New Welan declares independence from Coven Socialist Republic.": "#"
         }
@@ -309,7 +309,7 @@
         "Population": "31 000 000",
         "Troops": "15 000",
         "Religion": "Islam (60%), Atheism (39%), Others (1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "United Welan States declares independence from New Welan.": "#"
         }
@@ -332,7 +332,7 @@
         "Population": "761 000 000",
         "Troops": "12 000  Prepared",
         "Religion": "Islam (87%), Atheism (13%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The Republic of Maritimia declares independence from the Tuah republic.": "#"
         }
@@ -356,7 +356,7 @@
         "Population": "2 000 000",
         "Troops": "1 000",
         "Religion": "Atheism (99%), Others/Religious (1%)",
-        "FullBUMember": false,
+        "FullBUMember": "false",
         "news": {
             "The Kingdom of South Maritimia declares independence from Zeanland.": "#"
         }
@@ -379,7 +379,7 @@
         "Population": "8 490 000",
         "Troops": "1 500",
         "Religion": "Atheism (99%), Others/Religious (1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The East Maritimian Republic declares independence from Zeanland.": "#"
         }
@@ -401,7 +401,7 @@
         "Population": "710 000",
         "Troops": "1 500",
         "Religion": "Atheism (99%), Others/Religious (1%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The Republic of West Maritimia declares independence from South Maritimia.": "#"
         }
@@ -424,7 +424,7 @@
         "Population": "786.820.721",
         "Active Troops": "32.374.923",
         "Religion": "Islam (97.5%), Christian (2.73%), Buddha (1.52%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The Tuah Province, a dominion of Azkaland has siezed power after the collapse of Zeanland.": "#"
         }
@@ -447,7 +447,7 @@
         "Population": "320.868.354",
         "Active Troops": "50.467.268 (HADCF)",
         "Religion": "Jewish(80%), Christian(10.67%), Atheism(9.33%)",
-        "FullBUMember": true,
+        "FullBUMember": "true",
         "news": {
             "The United Land of Hypria declares independence from Azkaland.": "#"
         }
