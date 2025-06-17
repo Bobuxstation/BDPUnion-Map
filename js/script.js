@@ -16,7 +16,7 @@ async function setNations() {
     document.querySelectorAll("path").forEach(function (island) {
         if (countryData[island.className.baseVal]) {
             var islandClass = island.className.baseVal;
-            island.setAttribute("title", countryData[island.className.baseVal]['Country Name'])
+            island.setAttribute("title", `${countryData[island.className.baseVal]['Country Name']} (${countryData[island.className.baseVal]['Full Name']})`)
             island.setAttribute("class", "hoverable")
 
             island.onclick = function () {
