@@ -253,6 +253,7 @@
     },
     "newzeanland": {
         "flag": "assets/newmaritimia.png",
+        "Information": "The name for this nation has been recently changed from New Zeanland to New Maritimia",
         "Wiki Page": "<a href='https://bdp-union.fandom.com/wiki/New_Zeanland' target='_'><i class='fa-solid fa-arrow-up-right-from-square'></i> Open</a>",
         "spacingwiki": "spacingElem",
         "President": "Dean Bender",
