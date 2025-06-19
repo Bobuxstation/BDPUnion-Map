@@ -25,7 +25,7 @@
         }
     },
     "nandaland": {
-        "flag": "assets/nandaland.svg",
+        "flag": "assets/nandaland.png",
         "Country Name": "Nandaland",
         "Full Name": "Republic of Nandaland",
         "Independence": "25 May 1863",
@@ -47,7 +47,7 @@
         }
     },
     "silatland": {
-        "flag": "assets/silatland.svg",
+        "flag": "assets/silatland.png",
         "Country Name": "Silatland",
         "Full Name": "Central Silat Kingdom",
         "Leader": "King Silat IV",
@@ -71,7 +71,7 @@
     "asatland": {
         "Information": "Statistics are collected by the Federal Department of Statistics (updated October 2024).",
         "Wiki Page": "<a href='https://bdp-union.fandom.com/wiki/Federation_of_Asatland' target='_'><i class='fa-solid fa-arrow-up-right-from-square'></i> Open</a>",
-        "flag": "assets/asatland.webp",
+        "flag": "assets/asatland.png",
         "spacing1": "spacingElem",
         "Country Name": "Asatland",
         "Full Name": "Federation of Asatland",
@@ -134,7 +134,7 @@
         }
     },
     "arkaland": {
-        "flag": "assets/Arkaland_Flag_Peace.webp",
+        "flag": "assets/Arkaland_Flag_Peace.png",
         "Country Name": "Arkaland",
         "Full Name": "Republic of Arkaland",
         "President": "arka",
@@ -166,7 +166,7 @@
         }
     },
     "azkaland": {
-        "flag": "assets/azkaland.svg",
+        "flag": "assets/azkaland.png",
         "Wiki Page": "<a href='https://bdp-union.fandom.com/wiki/Azkaland' target='_'><i class='fa-solid fa-arrow-up-right-from-square'></i> Open</a>",
         "spacingwiki": "spacingElem",
         "Country Name": "Azkaland",
@@ -202,7 +202,7 @@
         }
     },
     "sepia": {
-        "flag": "assets/sepia.jpeg",
+        "flag": "assets/sepia.png",
         "map": "assets/sepia-map.png",
         "President": "Mohammed Sig Ahmad",
         "Country Name": "Sepia",
@@ -228,7 +228,7 @@
         }
     },
     "leoneury": {
-        "flag": "assets/leoneury.webp",
+        "flag": "assets/leoneury.png",
         "President": "Elfarol",
         "Country Name": "Leoneury",
         "Full Name": "Republic of Leoneury",
@@ -280,7 +280,7 @@
         }
     },
     "westwelan": {
-        "flag": "assets/West_Welan_Republic.webp",
+        "flag": "assets/West_Welan_Republic.png",
         "President": "Beaufort Rossi",
         "Country Name": "New Welan",
         "Full Name": "République du Noveau Welan",
@@ -446,7 +446,7 @@
         }
     },
     "hypria": {
-        "flag": "assets/Hypria.jpeg",
+        "flag": "assets/Hypria.png",
         "King": "Graduation Bear",
         "Prime Minister": "Kanye west's evil twin",
         "Country Name": "Hypria",

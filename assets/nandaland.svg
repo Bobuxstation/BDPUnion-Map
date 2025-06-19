@@ -1,6 +1,0 @@
- <!--Created for free with Tennessine's Flag Designer at https://tennessine.co.uk/flags/--><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="svg faded fadein" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="896.3552371697821" height="597.6000366210938" viewBox="0 0 100 66.67" id="svg" style="filter: brightness(250%);"><g><g><path d="M0,0L100,0L100,66.67L0,66.67Z" fill="rgb(215,20,26)"/></g></g><g transform="rotate(0,50,50.002498626708984)" class="svg-group-clickable"><g><path d="M0,33.335L100,33.335L100,66.67L0,66.67Z" fill="rgb(15,70,126)"/></g></g><g transform="rotate(0,25,33.334999084472656)" class="svg-group-clickable"><g><path d="M0.00,0.00L50.00,33.34L0.00,66.67" fill="rgb(255,255,255)"/></g></g><defs id="font-data"><style xmlns="http://www.w3.org/1999/xhtml">svg * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-.svg-group-clickable { cursor: pointer; }
-svg &gt; g &gt; g { transform-origin: left top; transform-box: fill-box; }
-.faded { opacity: 0.75; }
-.fadein { opacity: 1; transition: opacity 0.3s ease 0s; }
-</style></defs></svg>
