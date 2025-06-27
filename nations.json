@@ -327,8 +327,7 @@
     },
     "maritimia": {
         "flag": "assets/ROM.png",
-        "President": "Hans Fisch",
-        "Prime Minister": "Zean Fender",
+        "President": "Zean Fender",
         "Country Name": "Maritimia",
         "Full Name": "Republic of Maritimia",
         "Independence": "18 January 2025",
