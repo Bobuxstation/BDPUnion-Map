@@ -467,5 +467,28 @@
         "news": {
             "The United Land of Hypria declares independence from Azkaland.": "#"
         }
+    },
+    "cwr": {
+        "flag": "assets/Central Welan Rep.png",
+        "President": "Qarl Parsons",
+        "Country Name": "Central Welan",
+        "Full Name": "Central Welan Republic",
+        "Independence": "12 August 2025",
+        "Ideology": "Democracy",
+        "spacing1": "spacingElem",
+        "Capital City": "New Wake",
+        "Districts": "2",
+        "spacing2": "spacingElem",
+        "Currency": "BU dollar",
+        "Resources": "Coal, Tin, Oil, Natural Gas.",
+        "spacing3": "spacingElem",
+        "Main Language": "German",
+        "Population": "19 216 803",
+        "Active Troops": "12 210",
+        "Religion": "Atheism(78%), Local Paganism (19%), Others(3%)",
+        "FullBUMember": "false",
+        "news": {
+            "The Central Welan Republic gains autonomy from New Maritimia.": "#"
+        }
     }
 }
