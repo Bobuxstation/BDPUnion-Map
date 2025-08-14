@@ -469,14 +469,16 @@
         }
     },
     "cwr": {
+        "Information": "Central Welan is a New-Maritimian dependent territory.",
+        "spacing0": "spacingElem",
         "flag": "assets/Central Welan Rep.png",
         "President": "Qarl Parsons",
         "Country Name": "Central Welan",
         "Full Name": "Central Welan Republic",
         "Independence": "12 August 2025",
-        "Ideology": "Democracy",
+        "Ideology": "Social Democracy",
         "spacing1": "spacingElem",
-        "Capital City": "New Wake",
+        "Capital City": "Mintonia",
         "Districts": "2",
         "spacing2": "spacingElem",
         "Currency": "BU dollar",
