@@ -203,49 +203,24 @@
     },
     "leoneury": {
         "flag": "assets/leoneury.png",
-        "President": "Elfarol",
-        "Country Name": "Leoneury",
-        "Full Name": "Republic of Leoneury",
-        "Ideology": "liberalism",
-        "Main Animal": "Fatehur (emu like bird)",
-        "Independence": "18 January 2025",
+        "President": "Lukas Djoković",
+        "Country Name": "Degtreven",
+        "Full Name": "Republic of Degtreven",
+        "Ideology": "Democracy",
+        "Independence": "7 October 2025",
         "spacing1": "spacingElem",
-        "Capital City": "Degtreven",
+        "Capital City": "Degtreven City",
         "spacing2": "spacingElem",
-        "Currency": "LeoDollars",
+        "Currency": "BU Dollar",
         "Resources": "Oil",
         "spacing3": "spacingElem",
         "Main Language": "English",
-        "Population": "78 000 000",
-        "Troops": "10 000 000",
+        "Population": "27 800 000",
+        "Troops": "16 000",
         "Religion": "Islam (87%), Christian (6%), Hindu (3%), Buddha (2%), Konghucu (1%), Judaism (1%)",
         "FullBUMember": "true",
         "news": {
-            "The republic of Leoneury declares independence from the Tuah republic.": "#",
-            "BDP Union welcomes The Republic of Leoneury with open hands.": "#"
-        }
-    },
-    "westwelan": {
-        "flag": "assets/West_Welan_Republic.png",
-        "President": "Beaufort Rossi",
-        "Country Name": "New Welan",
-        "Full Name": "République du Noveau Welan",
-        "Independence": "8 September 2024",
-        "Ideology": "Liberalism",
-        "spacing1": "spacingElem",
-        "Capital City": "Beuragène",
-        "States": "2",
-        "spacing2": "spacingElem",
-        "Currency": "BU dollar",
-        "Resources": "Uranium",
-        "spacing3": "spacingElem",
-        "Main Language": "French, English",
-        "Population": "96 000 000",
-        "Troops": "15 000",
-        "Religion": "Islam (60%), Atheism (39%), Others (1%)",
-        "FullBUMember": "true",
-        "news": {
-            "The Republic of New Welan declares independence from Coven Socialist Republic.": "#"
+            "The republic of Degtreven declares independence from Leoneury post EHF invasion.": "#"
         }
     },
     "welanstates": {
@@ -366,31 +341,6 @@
             "The Republic of West Maritimia declares independence from South Maritimia.": "#"
         }
     },
-    "cwr": {
-        "Information": "Central Welan is a East-Hemisphere dependent territory.",
-        "spacing0": "spacingElem",
-        "flag": "assets/Central Welan Rep.png",
-        "President": "Qarl Parsons",
-        "Country Name": "Central Welan",
-        "Full Name": "Central Welan Republic",
-        "Independence": "12 August 2025",
-        "Ideology": "Social Democracy",
-        "spacing1": "spacingElem",
-        "Capital City": "Mintonia",
-        "Districts": "2",
-        "spacing2": "spacingElem",
-        "Currency": "BU dollar",
-        "Resources": "Coal, Tin, Oil, Natural Gas.",
-        "spacing3": "spacingElem",
-        "Main Language": "German",
-        "Population": "19 216 803",
-        "Active Troops": "12 210",
-        "Religion": "Atheism(78%), Local Paganism (19%), Others(3%)",
-        "FullBUMember": "false",
-        "news": {
-            "The Central Welan Republic gains autonomy from New Maritimia.": "#"
-        }
-    },
     "ehf": {
         "flag": "assets/ehf.png",
         "Executive Body": "Federation Council (3 members, rotating and elected)",
@@ -412,6 +362,29 @@
         "FullBUMember": "true",
         "news": {
             "New Maritimia, Azkaland, Hypria and Tuah declared unity as the East Hemisphere Federation.": "https://docs.google.com/document/d/1GOIdY4Ac_tPyjVVjS2LtkZw5Gj2_Z5FsryEc742wEd8/edit?tab=t.0"
+        }
+    },
+    "saken": {
+        "flag": "assets/saken.png",
+        "President": "Maja Anderson",
+        "Country Name": "New Leoneury",
+        "Full Name": "Republic of New Leoneury",
+        "Independence": "7 October 2025",
+        "Ideology": "Liberal Punitivism",
+        "spacing1": "spacingElem",
+        "Capital City": "Stäkhålm",
+        "States": "2",
+        "spacing2": "spacingElem",
+        "Currency": "New Leoneury Kraner (NLK)",
+        "Resources": "Fish, Tobacco, wheat, silicon",
+        "spacing3": "spacingElem",
+        "Main Language": "Swedish, English",
+        "Population": "57 925 882",
+        "Troops": "100 000",
+        "Religion": "Islam (99%), Other (1%)",
+        "FullBUMember": "true",
+        "news": {
+            "The Republic of New Leoneury declares independence from Maritimia.": "#"
         }
     }
 }
