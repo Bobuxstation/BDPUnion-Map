@@ -368,26 +368,26 @@
         }
     },
     "saken": {
-        "flag": "assets/saken.png",
-        "President": "Maja Anderson",
-        "Country Name": "New Leoneury",
-        "Full Name": "Republic of New Leoneury",
-        "Independence": "7 October 2025",
-        "Ideology": "Liberal Punitivism",
+        "flag": "assets/SPR.png",
+        "Chairman": "Wi Tso",
+        "Country Name": "Sanxiantai People's Republic",
+        "Full Name": "Sanxiantai People's Republic (三仙台人民共和國)",
+        "Independence": "20th of July 2026",
+        "Ideology": "Socialism with Sanxian characteristics/Wi Tso thought",
         "spacing1": "spacingElem",
-        "Capital City": "Stäkhålm",
-        "States": "2",
+        "Capital City": "Shanchang",
+        "Provinces": "13",
         "spacing2": "spacingElem",
-        "Currency": "New Leoneury Kraner (NLK)",
-        "Resources": "Fish, Tobacco, wheat, silicon",
+        "Currency": "Yuanminbi (YMB)",
+        "Resources": "Minerals and Agriculture",
         "spacing3": "spacingElem",
-        "Main Language": "Swedish, English",
-        "Population": "57,925,882",
-        "Troops": "100,000",
-        "Religion": "Islam (99%), Other (1%)",
+        "Main Language": "Traditional Chinese (Sanxianese)",
+        "Population": "329,000,000",
+        "Troops": "735,000",
+        "Religion": "Atheism (99.9%), Others (0.1%)",
         "FullBUMember": "true",
         "news": {
-            "The Republic of New Leoneury declares independence from Maritimia.": "#"
+            "The Sanxiantai People's Republic declares independence.": "#"
         }
     }
 }
