@@ -274,15 +274,14 @@
     "southmaritimia": {
         "flag": "assets/South Maritimia.png",
         "map": "assets/THE SOUTH MARITIMIAN ARCHIPELAGO.png",
-        "Leader": "King Lambert I",
         "Prime Minister": "Cristiano Fisch",
         "Country Name": "South Maritimia",
-        "Full Name": "Kingdom of South Maritimia",
+        "Full Name": "South Maritimian Union",
         "Independence": "25 December 2024",
-        "Ideology": "Monarchism",
+        "Ideology": "Democracy",
         "spacing1": "spacingElem",
-        "Capital City": "Drijvende (Sky City)",
-        "States": "23",
+        "Capital City": "Martagrad",
+        "States": "7",
         "spacing2": "spacingElem",
         "Currency": "Muschel-Mark",
         "Resources": "Fish, Minerals, Natural Gas, Oil",
@@ -291,8 +290,9 @@
         "Population": "2,000,000",
         "Troops": "1,000",
         "Religion": "Atheism (99%), Others/Religious (1%)",
-        "FullBUMember": "false",
+        "FullBUMember": "true",
         "news": {
+            "South Maritimian Civil War Comes to an End After Warring Factions Reach Agreement.": "#",
             "The Kingdom of South Maritimia declares independence from Zeanland.": "#"
         }
     },
